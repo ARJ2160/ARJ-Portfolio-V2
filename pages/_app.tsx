@@ -43,6 +43,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
           property='og:image:url'
           content='https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367'
         />
+         <title>ARJs Portfolio</title>
       </Head>
       <Component {...pageProps} />
     </Layout>
