@@ -1,3 +1,106 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('fonts/ApercuPro-Medium.eot');
+  src: local('Apercu Pro Medium'), local('ApercuPro-Medium'),
+    url('fonts/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ApercuPro-Medium.woff2') format('woff2'),
+    url('fonts/ApercuPro-Medium.woff') format('woff'),
+    url('fonts/ApercuPro-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: Apercu Pro, sans-serif;
+  font-weight: 500;
+  @apply transition-colors duration-300 ease-in;
+}
+
+.tooltip::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  top: 0px;
+  right: 100%;
+  transform: translateY(10px) rotate(90deg);
+}
+.tooltip {
+  @apply absolute bottom-[-1.5] left-9 w-auto p-2 m-2 min-w-max rounded-md shadow-md text-xs scale-0 bg-black text-white transition-transform duration-100 origin-left;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 10px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+}
+
+@media (max-width: 450px) {
+  .skill-list {
+    grid-template-columns: repeat(1, minmax(140px, 200px));
+  }
+}
+.skill-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.skill-list > li::before {
+  content: '▹';
+  position: absolute;
+  left: -5px;
+  top: 7px;
+  font-size: 1.5rem;
+  color: #3399ff;
+  line-height: 10px;
+}
+
+.email::after {
+  content: '';
+  border-left: 3px solid #3399ff;
+  z-index: 10;
+  display: block;
+  width: 1px;
+  height: 200px;
+  margin: 0px auto;
+  transform: rotate(90deg) translateY(-50%);
+}
+
+.social-media-list::after {
+  content: '';
+  color: #3399ff;
+  border-left: 3px solid #3399ff;
+  display: block;
+  width: 1px;
+  height: 250px;
+  margin: 0px auto;
+  transform: translateY(16%);
+}
