@@ -5,12 +5,12 @@
   ARJ's Portfolio - V2
 </h1>
 <p align="center">
-  This is the second iteration of <a href="https://arj-portfolio-v2.vercel.app/" target="_blank">my portfolio website/</a> built with <a href="https://nextjs.org/" target="_blank">Next JS</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a> and hosted with <a href="https://vercel.com/" target="_blank">Netlify</a>
+  This is the second iteration of <a href="https://arj-portfolio-v2.vercel.app/" target="_blank">my portfolio website</a> built with <a href="https://nextjs.org/" target="_blank">Next JS</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 </div>
 <p align="center">
   <a href="https://arj-portfolio-v2.vercel.app/" target="_blank">
-    <img src="https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367" alt="Netlify Status" />
+    <img src="https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367" alt="Portfolio Website Screenshot" />
   </a>
 </p>
 <p align="center">
