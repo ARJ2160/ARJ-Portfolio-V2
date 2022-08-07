@@ -18,9 +18,9 @@ const Skills = (): JSX.Element => {
     <div className='tech-stack mt-5 h-fit' data-aos='fade-up'>
       <div className='md:text-7xl sm:text-5xl text-4xl pb-5 leading-10 text-center my-10'>
         <span className='dark:text-darkOpal text-black leading-4'>
-          Here&apos;s my{' '}
+          Tools of{' '}
         </span>
-        <span className='text-skyBlue'>Tech Stack</span>
+        <span className='text-skyBlue'>Trade</span>
       </div>
       <div className='grid md:grid-cols-4 sm:grid-cols-2 w-fit gap-7 mx-auto mt-8'>
         {skills.map((skill: SkillProps) => (

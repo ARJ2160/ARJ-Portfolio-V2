@@ -20,13 +20,12 @@ import {
 import { SiLinkedin } from 'react-icons/si';
 import Image from 'next/image';
 import Link from 'next/link';
-// import ARJResume from '../assets/ARJResume.pdf';
 
 const Home: NextPage = () => {
   const [mounted, setMounted] = useState(false);
   const [colorTheme, setTheme]: any = useDarkMode();
   const { social } = data;
-  const { GitHub, LinkedIn, Twitter, Email, Spotify } = social;
+  const { GitHub, LinkedIn, Twitter, Email, Spotify, Resume } = social;
 
   useEffect(() => setMounted(true), []);
 
@@ -135,19 +134,18 @@ const Home: NextPage = () => {
             </Link>
           </li>
           <li>
-            {/* <Link> */}
-            <a
-              className='relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full transition-transform group hover:translate-y-[-5px]'
-              // href={ARJResume}
-              download='Professional Resume - Atharva Joshi.pdf'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <FaFolder />
-              <span className='tooltip group-hover:scale-100'>Resume</span>
-              <span className='sr-only'>Resume</span>
-            </a>
-            {/* </Link> */}
+            <Link href={Resume}>
+              <a
+                className='relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full transition-transform group hover:translate-y-[-5px]'
+                download='Professional Resume - Atharva Joshi.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaFolder />
+                <span className='tooltip group-hover:scale-100'>Resume</span>
+                <span className='sr-only'>Resume</span>
+              </a>
+            </Link>
           </li>
         </ul>
       </div>

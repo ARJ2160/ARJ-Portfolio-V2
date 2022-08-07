@@ -27,6 +27,8 @@ export const data = {
     LinkedIn: 'https://www.linkedin.com/in/arj2160/',
     Twitter: 'https://twitter.com/Atharvaj2160',
     Email: 'atharvaj2160@gmail.com',
+    Resume:
+      'https://app.enhancv.com/share/039ec1fe/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic',
     Spotify:
       'https://open.spotify.com/playlist/52gtDapY50kKkLEnnnvYgz?si=89f44d4ce2944b91'
   },
