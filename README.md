@@ -1,27 +1,46 @@
-# Next.js + Tailwind CSS Example
+<div align="center">
+  <img alt="Logo" src="https://avatars.githubusercontent.com/in/8329?s=30&u=cd19897a18dc3e7a2b0b8be2c6ce135b726c5772&v=4" width="100" />
+</div>
+<h1 align="center">
+  ARJ's Portfolio - V2
+</h1>
+<p align="center">
+  This is the second iteration of <a href="https://arj-portfolio-v2.vercel.app/" target="_blank">my portfolio website/</a> built with <a href="https://nextjs.org/" target="_blank">Next JS</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a> and hosted with <a href="https://vercel.com/" target="_blank">Netlify</a>
+</p>
+</div>
+<p align="center">
+  <a href="https://arj-portfolio-v2.vercel.app/" target="_blank">
+    <img src="https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367" alt="Netlify Status" />
+  </a>
+</p>
+<p align="center">
+  The Design is partially inspired by <a href="brittanychiang.com" target="_blank">britannychaing.com</a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Initial Setup done with -
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```sh
+ pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## 🛠 Installation & Set Up
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. Install dependencies using pnpm
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+   ```sh
+   pnpm i
+   ```
+
+2. Start the development server
+
+   ```sh
+   pnpm dev
+   ```
+
+## 🚀 Building and Running for Production
+
+1. Generate production build
+
+   ```sh
+   pnpm build
+   ```
