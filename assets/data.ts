@@ -195,7 +195,7 @@ export const data = {
     subText: 'I build stuff for the web.',
     about_me: `I'm a React Developer who loves creating aesthetically pleasing
     front-ends. Currently I'm focused on building my logic to the next level
-    in basic Javascript. I aim on exploring new and obscure langauges like
+    in basic Javascript. I aim on exploring new and obscure languages like
     Haskell, GraphQL, Solidity, Prisma. When I'm not coding I'm probably
     listening to some hip-hop ;)`
   },
