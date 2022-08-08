@@ -119,7 +119,7 @@ export const data = {
       id: 1,
       title: 'Lusion React + Tailwind Clone',
       image: Lusion,
-      description: `An emulation of the "Lusion" website using React and Tailwind`,
+      description: `Developed an emulation of the "Lusion" website using React and Tailwind.`,
       tags: ['React JS', 'Tailwind CSS', 'Stripe API'],
       projectLink: 'https://tailwind-lusion.vercel.app/',
       link: 'https://github.com/ARJ2160/Tailwind-Lusion'
@@ -139,7 +139,7 @@ export const data = {
       title: 'IMDb Clone',
       image: Movies,
       description:
-        'Built an IMDb website clone using the IMDb API with React JS for the front-end and Redux Toolkit for managing state.',
+        'Built an IMDb website clone using the IMDb API with React JS for the front-end, Redux Toolkit for managing state, and Redux Thunk as middleware for the API calls',
       tags: ['React JS', 'Redux Toolkit', 'Redux Thunk', 'Sass'],
       projectLink: 'https://redux-movies-lemon.vercel.app/',
       link: 'https://github.com/ARJ2160/Redux-Movies'
@@ -149,7 +149,7 @@ export const data = {
       title: 'Redux Authentication System',
       image: Form,
       description:
-        'Created an Authentication Flow System using React JS and used Redux Toolkit for managing state.',
+        'Created an Authentication Flow System using React JS for the front-end and Redux Toolkit to manage state.',
       tags: [
         'React JS',
         'Redux',
@@ -164,8 +164,7 @@ export const data = {
       id: 5,
       title: 'Samtej Industries LLP',
       image: Samtej,
-      description:
-        'Converted low fidelity designs to front-ends. Developed a static React JS website that helped bring the business online so users could browse through the various products the company offers.',
+      description: `Converted low fidelity designs to front-ends. Developed a static React JS website that helped bring the business online so users could browse through the company's various products.`,
       tags: ['React JS', 'Bootstrap 5'],
       projectLink: 'https://samtejllp.com/',
       link: 'https://github.com/ARJ2160/Samtej-React'
@@ -175,7 +174,7 @@ export const data = {
       title: 'React Blog',
       image: BlogWebsite,
       description:
-        'A blog website built using React and Tailwind CSS which allows the user to view blogs written by the users with admin access.',
+        'Built a blog website using React and Tailwind CSS, allowing users to view blogs written by the users with admin access.',
       tags: [
         'React JS',
         'Redux',
@@ -193,19 +192,10 @@ export const data = {
     my_name_is: 'my name is',
     name: 'Atharva Joshi.',
     subText: 'I build stuff for the web.',
-    about_me: `I'm a React Developer who loves creating aesthetically pleasing
-    front-ends. Currently I'm focused on building my logic to the next level
-    in basic Javascript. I aim on exploring new and obscure languages like
-    Haskell, GraphQL, Solidity, Prisma. When I'm not coding I'm probably
-    listening to some hip-hop ;)`
+    about_me: `I'm a React Developer who loves creating aesthetically pleasing front-ends. Currently, I'm focused on building my logic to the next level in basic Javascript. I aim to explore new and obscure languages like Haskell, GraphQL, Solidity, and Prisma. When I'm not coding, I'm probably listening to some hip-hop ;)`
   },
   about: {
-    about_me: `Hey there! My name is Atharva and I love creating sleek front-ends
-    along with high performant back-end for the web. I first started playing
-    around with HTML and CSS back in 2021, trying to recreate mockups from
-    Tumblr and since then I have fallen in love with React and MERN Stack.
-    What amazes me is the sheer simplicity and weirdness of JavaScript. Nowadays, my mind is on the business side of the spectrum, trying to understand the gist of business
-    strategies and financing. I work at an IT Company called Apptware where I get to work on everything, from an E-commerce website to web apps used by Data Scientists.`,
+    about_me: `Hey there! My name is Atharva, and I love creating sleek front-ends and high-performance back-ends for the web. I first started playing around with HTML and CSS in 2021, trying to recreate mockups from Tumblr, and since then, I have fallen in love with React and MERN Stack. What amazes me is the sheer simplicity and weirdness of JavaScript. Nowadays, my mind is on the business side of the spectrum, trying to understand the gist of business strategies and financing. I work at an IT Company called Apptware, where I work on everything, from an E-commerce website to web apps used by Data Scientists.`,
     tech: `Here are some of the technologies I get to work with :`,
     tech_list: ['React Typescript', 'Storybook', 'Cypress', 'JavaScript ES6']
   }
