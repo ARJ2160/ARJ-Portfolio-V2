@@ -1,21 +1,7 @@
 import ProjectCard from './ProjectCard';
 import React from 'react';
 import { data } from '../../assets/data';
-
-interface ProjectProps {
-  id: number;
-  description: string;
-  image: {
-    src: string;
-    height: number;
-    width: number;
-    blurDataURL?: string;
-  };
-  link: string;
-  projectLink: string;
-  tags: string[];
-  title: string;
-}
+import { ProjectProps } from '../../types/types';
 
 const Projects = (): JSX.Element => {
   const projects: ProjectProps[] = data.projects;

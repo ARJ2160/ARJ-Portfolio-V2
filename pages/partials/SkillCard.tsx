@@ -1,15 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-
-interface SkillCardProps {
-  id: number;
-  skillName: string;
-  skillIcon: {
-    height: number;
-    src: string;
-    width: number;
-  };
-}
+import { SkillCardProps } from '../../types/types';
 
 const SkillCard = ({
   id,

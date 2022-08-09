@@ -9,15 +9,7 @@ import {
   FaTwitter
 } from 'react-icons/fa';
 import { SiLinkedin } from 'react-icons/si';
-
-interface SocialMediaProps {
-  GitHub: string;
-  LinkedIn: string;
-  Twitter: string;
-  Email: string;
-  Resume: string;
-  Spotify: string;
-}
+import { SocialMediaProps } from '../../types/types';
 
 const SocialMedia = (): JSX.Element => {
   const social: SocialMediaProps = data.social;
@@ -27,7 +19,7 @@ const SocialMedia = (): JSX.Element => {
       <div className='social-media md:fixed md:block hidden bottom-10 left-10 z-10'>
         <ul className='social-media-list flex flex-col items-center list-none m-0 p-0'>
           <li>
-            <Link href={social.GitHub}>
+            <Link href={social?.GitHub}>
               <a
                 className='relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 dark:text-white dark:hover:bg-gray-800 text-black hover:bg-teal-500 rounded-full transition-transform group hover:translate-y-[-5px]'
                 target='_blank'
@@ -40,7 +32,7 @@ const SocialMedia = (): JSX.Element => {
             </Link>
           </li>
           <li>
-            <Link href={social.LinkedIn}>
+            <Link href={social?.LinkedIn}>
               <a
                 className='relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-700 hover:bg-black rounded-full transition-transform group hover:translate-y-[-5px]'
                 target='_blank'
@@ -53,7 +45,7 @@ const SocialMedia = (): JSX.Element => {
             </Link>
           </li>
           <li>
-            <Link href={social.Spotify}>
+            <Link href={social?.Spotify}>
               <a
                 className='relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full transition-transform group hover:translate-y-[-5px]'
                 target='_blank'
@@ -66,7 +58,7 @@ const SocialMedia = (): JSX.Element => {
             </Link>
           </li>
           <li>
-            <Link href={social.Twitter}>
+            <Link href={social?.Twitter}>
               <a
                 className='text-blue-500 hover:bg-black relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 rounded-full transition-transform group hover:translate-y-[-5px]'
                 target='_blank'
@@ -81,7 +73,7 @@ const SocialMedia = (): JSX.Element => {
           <li>
             <Link
               href={
-                'https://mail.google.com/mail/?view=cm&fs=1&to=' + social.Email
+                'https://mail.google.com/mail/?view=cm&fs=1&to=' + social?.Email
               }
             >
               <a
@@ -96,7 +88,7 @@ const SocialMedia = (): JSX.Element => {
             </Link>
           </li>
           <li>
-            <Link href={social.Resume}>
+            <Link href={social?.Resume}>
               <a
                 className='relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-black rounded-full transition-transform group hover:translate-y-[-5px]'
                 download='Professional Resume - Atharva Joshi.pdf'
@@ -115,7 +107,7 @@ const SocialMedia = (): JSX.Element => {
         <div className='email flex flex-row items-center'>
           <Link
             href={
-              'https://mail.google.com/mail/?view=cm&fs=1&to=' + social.Email
+              'https://mail.google.com/mail/?view=cm&fs=1&to=' + social?.Email
             }
           >
             <a

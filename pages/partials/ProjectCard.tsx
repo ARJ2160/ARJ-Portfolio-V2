@@ -1,24 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
+import { ProjectCardProps } from '../../types/types';
 
-interface ProjectCardProps {
-  project: {
-    id: any;
-    title: string;
-    description: string;
-    tags: string[];
-    projectLink: string;
-    link: string;
-    image: {
-      src: string;
-      height: number;
-      width: number;
-      blurDataURL?: string;
-    };
-  };
-}
-
-const ProjectCard = ({ project }: ProjectCardProps): JSX.Element | null => {
+const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
   return (
     <div
       key={project?.id}

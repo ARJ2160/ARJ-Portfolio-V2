@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Navbar = ({ toggle }: any) => {
+const Navbar = ({ toggle }: any): JSX.Element => {
   return (
     <nav
       className='navbar glass flex justify-between w-full h-10 py-10 items-center fixed z-10'

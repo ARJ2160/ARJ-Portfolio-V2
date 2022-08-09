@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const DropDown = ({ isOpen, toggle }: any) => {
+const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
   return (
     <>
       <div
