@@ -15,7 +15,11 @@ interface SkillProps {
 const Skills = (): JSX.Element => {
   const skills: SkillProps[] = data.skills;
   return (
-    <div className='tech-stack mt-5 h-fit' data-aos='fade-up'>
+    <div
+      className='tech-stack mt-5 h-fit pt-16 md:px-24'
+      data-aos='fade-up'
+      id='Skills'
+    >
       <div className='md:text-7xl sm:text-5xl text-4xl pb-5 leading-10 text-center my-10'>
         <span className='dark:text-darkOpal text-black leading-4'>
           Tools of{' '}

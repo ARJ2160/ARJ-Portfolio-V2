@@ -20,7 +20,10 @@ interface ProjectProps {
 const Projects = (): JSX.Element => {
   const projects: ProjectProps[] = data.projects;
   return (
-    <div className='projects flex flex-col items-center md:px-24'>
+    <div
+      className='projects flex flex-col items-center md:px-24 pt-16'
+      id='Projects'
+    >
       <div className='md:text-7xl text-5xl pb-5 text-center my-10'>
         <span className='dark:text-darkOpal text-black leading-10'>My</span>{' '}
         <span className='text-skyBlue'>Projects</span>

@@ -15,9 +15,13 @@
 }
 
 * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   font-family: Apercu Pro, sans-serif;
   font-weight: 500;
-  @apply transition-colors duration-300 ease-in;
+  scroll-behavior: smooth;
+  @apply transition-all duration-300 ease-in;
 }
 
 .tooltip::before {
@@ -103,4 +107,32 @@
   height: 250px;
   margin: 0px auto;
   transform: translateY(16%);
+}
+.glass {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+.nav-link {
+  @apply pr-10 dark:text-darkOpal text-black cursor-pointer;
+}
+.pdf {
+  @apply w-24 h-12 bg-skyBlue dark:text-black rounded-lg;
+}
+.burger {
+  width: 30px;
+  height: 3px;
+  background-color: #227eff;
+}
+.burger-2 {
+  margin: 5px auto;
+}
+.toggled.burger-1 {
+  transform: rotate(-45deg translate(-5px, 6px));
+}
+/* .toggled.burger-2 {
+  
+} */
+.toggled.burger-3 {
+  transform: rotate(45deg translate(-5px, -6px));
 }

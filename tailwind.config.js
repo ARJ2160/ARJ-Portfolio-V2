@@ -17,7 +17,8 @@ module.exports = {
         skyBlue: '#3399FF'
       },
       screens: {
-        sm: '388px'
+        sm: '388px',
+        md: '950px'
       }
     }
   },

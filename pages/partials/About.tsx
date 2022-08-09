@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = (): JSX.Element => {
   return (
-    <div className='background w-3/4 mx-auto min-h-max pt-20'>
+    <div className='background w-3/4 mx-auto min-h-max pt-20' id='About'>
       <div className='text-5xl pb-5 md:text-8xl text-center my-10'>
         <span className='dark:text-darkOpal text-black'>About</span>{' '}
         <span className='text-skyBlue'>Me</span>

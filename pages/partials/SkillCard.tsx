@@ -10,6 +10,7 @@ interface SkillCardProps {
     width: number;
   };
 }
+
 const SkillCard = ({
   id,
   skillName,
