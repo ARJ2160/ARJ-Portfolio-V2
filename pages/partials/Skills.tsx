@@ -1,10 +1,10 @@
 import React from 'react';
 import SkillCard from './SkillCard';
 import { data } from '../../assets/data';
-import { SkillCardProps, SkillProps } from '../../types/types';
+import { SkillProps } from '../../types/types';
 
 const Skills = (): JSX.Element => {
-  const skills: SkillCardProps[] = data.skills;
+  const skills: SkillProps[] = data.skills;
   return (
     <div
       className='tech-stack mt-5 h-fit pt-16 md:px-24'

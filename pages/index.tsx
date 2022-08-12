@@ -42,10 +42,10 @@ const Home: NextPage = () => {
       <Navbar toggle={toggle} />
       <DropDown isOpen={isOpen} toggle={toggle} />
       <div className='min-h-screen py-10 px-3 sm:px-5 dark:bg-backgroundBlue dark:text-white bg-white text-black relative'>
-        <div data-aos='fade-down' data-aos-duration='1000'>
+        <div data-aos='fade-down' data-aos-duration='600'>
           <Hero />
         </div>
-        <div data-aos='fade-up' data-aos-duration='800' data-aos-delay='400'>
+        <div data-aos='fade-up' data-aos-duration='500' data-aos-delay='300'>
           <About />
           <Skills />
           <Projects />
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
               width={30}
               height={30}
               alt='Toggle theme'
-              className='cursor-pointer fixed top-5 right-5 select-none'
+              className='cursor-pointer'
               onClick={() => setTheme(colorTheme)}
             />
           </span>

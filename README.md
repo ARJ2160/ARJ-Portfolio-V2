@@ -14,7 +14,7 @@
   </a>
 </p>
 <p align="center">
-  The Design is partially inspired by <a href="brittanychiang.com" target="_blank">britannychaing.com</a>
+  The Design is partially inspired by <a href="https://brittanychiang.com/" target="_blank">britannychiang.com</a>
 </p>
 
 ## Initial Setup done with -

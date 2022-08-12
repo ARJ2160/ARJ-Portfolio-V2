@@ -1,18 +1,5 @@
 export interface ProjectCardProps {
-  project: {
-    id: number;
-    title: string;
-    description: string;
-    tags: string[];
-    projectLink: string;
-    link: string;
-    image: {
-      src: string;
-      height: number;
-      width: number;
-      blurDataURL?: string;
-    };
-  };
+  project: ProjectProps;
 }
 export interface ProjectProps {
   id: number;
@@ -29,15 +16,6 @@ export interface ProjectProps {
   title: string;
 }
 export interface SkillProps {
-  id: number;
-  skillName: string;
-  skillIcon: {
-    height: number;
-    src: string;
-    width: number;
-  };
-}
-export interface SkillCardProps {
   id: number;
   skillName: string;
   skillIcon: {

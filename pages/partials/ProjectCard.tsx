@@ -15,6 +15,8 @@ const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
           src={project?.image}
           loading='lazy'
           alt=' No image available'
+          placeholder='blur'
+          blurDataURL={project?.image?.blurDataURL}
         />
       </a>
       <div className='py-4 px-4'>
