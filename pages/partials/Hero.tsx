@@ -11,7 +11,15 @@ const Card = (): JSX.Element => {
       id='Hero'
     >
       <div className='w-28 h-28' data-aos='fade-up'>
-        <Image src={pic} className='my-7 rounded-full' alt='ARJ Image' />
+        <Image
+          width={pic.width}
+          height={pic.height}
+          placeholder='blur'
+          blurDataURL={pic.blurDataURL}
+          src={pic}
+          className='my-7 rounded-full'
+          alt='ARJ Image'
+        />
       </div>
       <div
         className='text-2xl md:text-xl font-mono flex items-center justify-between text-center text-skyBlue'

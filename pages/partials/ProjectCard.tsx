@@ -13,8 +13,10 @@ const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
         <Image
           className='w-full aspect-auto object-cover object-center'
           src={project?.image}
+          width={project?.image.width}
+          height={project?.image.height}
           loading='lazy'
-          alt=' No image available'
+          alt='No image available'
           placeholder='blur'
           blurDataURL={project?.image?.blurDataURL}
         />
