@@ -10,7 +10,7 @@ import Layout from './partials/Layout';
  * This is the Home Page
  * @return {JSX.Element}: The JSX Code for Home Page
  */
-function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   useEffect(() => {
     Aos.init({
       duration: 1000,
@@ -28,7 +28,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <meta property='og:title' content='ARJs Portfolio' />
         <meta itemProp='name' content='ARJs Portfolio' />
         <meta name='author' content='ARJs Joshi' />
-        <meta name='robots' content='index, follow' />
         <meta name='language' content='en-us' />
         <meta charSet='utf-8' />
         <meta
@@ -48,6 +47,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
       <Component {...pageProps} />
     </Layout>
   );
-}
+};
 
 export default MyApp;

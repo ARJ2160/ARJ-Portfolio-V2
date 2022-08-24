@@ -14,8 +14,6 @@ const Card = (): JSX.Element => {
         <Image
           width={pic.width}
           height={pic.height}
-          placeholder='blur'
-          blurDataURL={pic.blurDataURL}
           src={pic}
           className='my-7 rounded-full'
           alt='ARJ Image'
