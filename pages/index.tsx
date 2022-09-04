@@ -12,7 +12,6 @@ import Image from 'next/image';
 
 import Navbar from './partials/NavBar';
 import SocialMedia from './partials/SocialMedia';
-import DropDown from './partials/DropDown';
 
 const Home: NextPage = () => {
   const [mounted, setMounted] = useState(false);
@@ -39,8 +38,7 @@ const Home: NextPage = () => {
   if (!mounted) return null;
   return (
     <>
-      <Navbar toggle={toggle} />
-      <DropDown isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} isOpen={isOpen} />
       <div className='min-h-screen py-10 px-3 sm:px-5 dark:bg-backgroundBlue dark:text-white bg-white text-black relative'>
         <div data-aos='fade-down' data-aos-duration='600'>
           <Hero />

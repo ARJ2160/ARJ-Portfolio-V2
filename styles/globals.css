@@ -119,20 +119,23 @@
 .pdf {
   @apply w-24 h-12 bg-skyBlue dark:text-black rounded-lg;
 }
-/* .burger {
+.burger {
   width: 30px;
   height: 3px;
   background-color: #227eff;
+  transition: all;
+  transition-duration: 250ms;
 }
 .burger-2 {
   margin: 5px auto;
+  opacity: 1;
 }
-.toggled.burger-1 {
-  transform: rotate(-45deg translate(-5px, 6px));
-} */
-/* .toggled.burger-2 {
-  
-} */
-/* .toggled.burger-3 {
-  transform: rotate(45deg translate(-5px, -6px));
-} */
+.toggled.burger.burger-1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggled.burger.burger-2 {
+  opacity: 0;
+}
+.toggled.burger.burger-3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}

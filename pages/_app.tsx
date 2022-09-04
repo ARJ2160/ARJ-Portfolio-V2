@@ -29,6 +29,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         <meta itemProp='name' content='ARJs Portfolio' />
         <meta name='author' content='ARJs Joshi' />
         <meta name='language' content='en-us' />
+        <meta name='description' content='ARJs Portfolio Website' />
         <meta charSet='utf-8' />
         <meta
           itemProp='image'

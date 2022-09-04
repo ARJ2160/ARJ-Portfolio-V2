@@ -112,7 +112,7 @@ const SocialMedia = (): JSX.Element => {
           >
             <a
               target='_blank'
-              className='email-link mr-10 hover:dark:text-white duration-300 dark:text-skyBlue text-black'
+              className='email-link mr-10 hover:dark:text-white duration-300 dark:text-opal text-black'
             >
               atharvaj2160@gmail.com
             </a>
