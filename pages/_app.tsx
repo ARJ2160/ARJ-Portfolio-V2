@@ -33,15 +33,15 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         <meta charSet='utf-8' />
         <meta
           itemProp='image'
-          content='https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367'
+          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-09-04_075103_lOl4N0u8B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662258256757'
         />
         <meta
           property='og:image'
-          content='https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367'
+          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-09-04_075103_lOl4N0u8B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662258256757'
         />
         <meta
           property='og:image:url'
-          content='https://ik.imagekit.io/36athv2v82c8/Screenshot-2022-08-03-134638_DrR3x5ppE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1659534452367'
+          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-09-04_075103_lOl4N0u8B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662258256757'
         />
         <title>ARJs Portfolio</title>
       </Head>
