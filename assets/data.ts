@@ -20,6 +20,9 @@ import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
 import Purescript from '../images/Skill SVGs/purescript.svg';
 import Storybook from '../images/Skill SVGs/storybook.svg';
+import Flask from '../images/Skill SVGs/flask.svg';
+import Python from '../images/Skill SVGs/python.svg';
+import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
   social: {
@@ -34,89 +37,99 @@ export const data = {
   },
   skills: [
     {
-      id: 20,
+      id: uuidv4(),
       skillName: 'NEXT JS',
       skillIcon: NEXTJS
     },
     {
-      id: 1,
+      id: uuidv4(),
       skillName: 'React JS',
       skillIcon: ReactIcon
     },
     {
-      id: 2,
+      id: uuidv4(),
       skillName: 'Typescript',
       skillIcon: Typescript
     },
     {
-      id: 333,
+      id: uuidv4(),
       skillName: 'Purescript',
       skillIcon: Purescript
     },
     {
-      id: 5,
+      id: uuidv4(),
       skillName: 'JavaScript',
       skillIcon: Javascript
     },
     {
-      id: 21,
+      id: uuidv4(),
       skillName: 'Storybook',
       skillIcon: Storybook
     },
     {
-      id: 4,
+      id: uuidv4(),
       skillName: 'Redux',
       skillIcon: Redux
     },
     {
-      id: 3,
+      id: uuidv4(),
+      skillName: 'Flask',
+      skillIcon: Flask
+    },
+    {
+      id: uuidv4(),
+      skillName: 'Python',
+      skillIcon: Python
+    },
+    {
+      id: uuidv4(),
       skillName: 'Tailwind CSS',
       skillIcon: Tailwind
     },
     {
-      id: 6,
+      id: uuidv4(),
       skillName: 'GraphQL',
       skillIcon: GraphQL
     },
     {
-      id: 7,
+      id: uuidv4(),
       skillName: 'Apollo GraphQL',
       skillIcon: Apollo
     },
     {
-      id: 8,
+      id: uuidv4(),
       skillName: 'MongoDB',
       skillIcon: MongoDB
     },
     {
-      id: 9,
+      id: uuidv4(),
       skillName: 'Express',
       skillIcon: Express
     },
     {
-      id: 10,
+      id: uuidv4(),
       skillName: 'HTML 5',
       skillIcon: HTML5
     },
     {
-      id: 11,
+      id: uuidv4(),
       skillName: 'Bootstrap',
       skillIcon: Bootstrap
     },
     {
-      id: 12,
+      id: uuidv4(),
       skillName: 'CSS 3',
       skillIcon: CSS3
     },
     {
-      id: 13,
+      id: uuidv4(),
       skillName: 'GitHub',
       skillIcon: GitHub
     }
   ],
   projects: [
     {
-      id: 1,
+      id: uuidv4(),
       title: 'Lusion React + Tailwind Clone',
       image: Lusion,
       description: `Developed an emulation of the "Lusion" website using React and Tailwind.`,
@@ -125,7 +138,7 @@ export const data = {
       link: 'https://github.com/ARJ2160/Tailwind-Lusion'
     },
     {
-      id: 2,
+      id: uuidv4(),
       title: 'NEXT JS Spotify Clone',
       image: Spotify,
       description:
@@ -135,7 +148,7 @@ export const data = {
       link: 'https://github.com/ARJ2160/Next-Spotify-Clone'
     },
     {
-      id: 3,
+      id: uuidv4(),
       title: 'IMDb Clone',
       image: Movies,
       description:
@@ -145,7 +158,7 @@ export const data = {
       link: 'https://github.com/ARJ2160/Redux-Movies'
     },
     {
-      id: 4,
+      id: uuidv4(),
       title: 'Redux Authentication System',
       image: Form,
       description:
@@ -161,7 +174,7 @@ export const data = {
       link: 'https://github.com/ARJ2160/Redux-Authentication'
     },
     {
-      id: 5,
+      id: uuidv4(),
       title: 'Samtej Industries LLP',
       image: Samtej,
       description: `Converted low fidelity designs to front-ends. Developed a static React JS website that helped bring the business online so users could browse through the company's various products.`,
@@ -170,7 +183,7 @@ export const data = {
       link: 'https://github.com/ARJ2160/Samtej-React'
     },
     {
-      id: 6,
+      id: uuidv4(),
       title: 'React Blog',
       image: BlogWebsite,
       description:
@@ -191,11 +204,10 @@ export const data = {
   hero: {
     my_name_is: 'my name is',
     name: 'Atharva Joshi.',
-    subText: 'I build stuff for the web.',
     about_me: `I'm a React Developer who loves creating aesthetically pleasing front-ends. Currently, I'm focused on building my logic to the next level in basic Javascript. I aim to explore new and obscure languages and libraries like Haskell, GraphQL, Solidity, and Prisma. When I'm not coding, I'm probably listening to some hip-hop ;)`
   },
   about: {
-    about_me: `Hey there! My name is Atharva, and I love creating sleek front-ends and high-performant back-ends for the web. I first started playing around with HTML and CSS in 2021, trying to recreate mockups from Tumblr, and since then, I have been making websites with React and MERN Stack. Nowadays, my mind is on the business side of the spectrum, trying to understand the gist of business strategies and financing. I work at an IT firm called Apptware, where I work on web-apps and E-commerce websites used by local businesses.`,
+    about_me: `Hey there! My name is Atharva, and I love creating sleek front-ends and high-performant back-ends for the web. I first started playing around with HTML and CSS in 2021, trying to recreate mockups from Tumblr, and since then, I have been making websites with React and MERN Stack. Nowadays, I'm trying to learn Flask, so I can be a Full-Stack developer. When I'm not coding my mind is on the business side of the spectrum, trying to understand the gist of business strategies and finance. I work at an IT firm called Apptware, where I work on web-apps and E-commerce websites used by local businesses.`,
     tech: `Here are some of the technologies I get to work with :`,
     tech_list: ['React Typescript', 'Storybook', 'Cypress', 'JavaScript ES6']
   }

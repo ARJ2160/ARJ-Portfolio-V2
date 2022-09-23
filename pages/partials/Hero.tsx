@@ -42,7 +42,9 @@ const Card = (): JSX.Element => {
         {data.hero.name}
       </span>
       <span className='md:text-7xl text-5xl dark:text-darkOpal text-black'>
-        {data.hero.subText}
+        <span>I built </span>
+        <span className='text-green-500'>stuff </span>
+        <span>for the web.</span>
       </span>
       <p className='sm:w-3/4 w-4/5 pt-5 md:text-lg md:text-center text-left text-base text-skyBlue'>
         {data.hero.about_me}
