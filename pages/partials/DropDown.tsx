@@ -24,7 +24,7 @@ const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
         <Link href='#Projects'>Projects</Link>
       </div>
       <div className='p-4'>
-        <Link href='https://drive.google.com/file/d/19vd_SZhMVQW1FP6Bvz9hfZrI-u8XNPRK/view?usp=sharing'>
+        <Link href='https://drive.google.com/file/d/1MDLieHDNX-hLm_OkkrfCTHLy_KbVUyc7/view?usp=share_link'>
           <a target='_blank'>
             <button className='pdf'>Resume</button>
           </a>
