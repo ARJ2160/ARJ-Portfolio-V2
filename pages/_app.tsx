@@ -22,28 +22,28 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
-        <meta property='og:url' content='https://arj-portfolio-v2.vercel.app' />
+        <meta property='og:url' content='https://www.atharvaj.tech' />
         <meta property='og:type' content='website' />;
-        <meta property='og:site_name' content='ARJs Portfolio' />
-        <meta property='og:title' content='ARJs Portfolio' />
-        <meta itemProp='name' content='ARJs Portfolio' />
-        <meta name='author' content='ARJs Joshi' />
+        <meta property='og:site_name' content='ARJs Portfolio V2' />
+        <meta property='og:title' content='ARJs Portfolio V2' />
+        <meta itemProp='name' content='ARJs Portfolio V2' />
+        <meta name='author' content='Atharva Joshi' />
         <meta name='language' content='en-us' />
-        <meta name='description' content='ARJs Portfolio Website' />
+        <meta name='description' content='ARJs Portfolio Website Version 2' />
         <meta charSet='utf-8' />
         <meta
           itemProp='image'
-          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-09-04_075103_lOl4N0u8B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662258256757'
+          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-12-18_125952_xWZQNyd3I.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671348611035'
         />
         <meta
           property='og:image'
-          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-09-04_075103_lOl4N0u8B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662258256757'
+          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-12-18_125952_xWZQNyd3I.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671348611035'
         />
         <meta
           property='og:image:url'
-          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-09-04_075103_lOl4N0u8B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662258256757'
+          content='https://ik.imagekit.io/36athv2v82c8/Screenshot_2022-12-18_125952_xWZQNyd3I.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671348611035'
         />
-        <title>ARJs Portfolio</title>
+        <title>ARJs Portfolio V2</title>
       </Head>
       <Component {...pageProps} />
     </Layout>

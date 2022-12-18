@@ -17,6 +17,7 @@ const Card = (): JSX.Element => {
           src={pic}
           className='my-4 rounded-full'
           alt='ARJ Image'
+          priority
         />
       </div>
       <div
