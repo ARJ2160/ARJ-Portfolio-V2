@@ -139,3 +139,28 @@
 .toggled.burger.burger-3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
+.social-media {
+  @apply relative flex justify-center items-center text-xl m-1 p-1 sm:m-2 sm:p-2 rounded-full transition-transform hover:translate-y-[-5px];
+}
+
+.get-in-touch-tooltip {
+  @apply absolute bottom-32 left-[-7] w-auto p-2 m-2 min-w-max rounded-md shadow-md text-xs scale-0 bg-black text-white transition-transform duration-100 origin-bottom;
+}
+
+.get-in-touch-tooltip::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-5px);
+}
+
+.exp-dot {
+  @apply after:absolute after:w-1 after:h-10 after:bg-[#383D40] after:rounded-full after:top-2 after:left-[1.5px] after:mt-2;
+}

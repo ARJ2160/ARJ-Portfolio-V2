@@ -15,12 +15,12 @@ const Card = (): JSX.Element => {
           width={pic.width}
           height={pic.height}
           src={pic}
-          className='my-7 rounded-full'
+          className='my-4 rounded-full'
           alt='ARJ Image'
         />
       </div>
       <div
-        className='text-2xl md:text-xl font-mono flex items-center justify-between text-center text-skyBlue'
+        className='text-2xl mt-5 md:text-xl font-mono flex items-center justify-between text-center text-skyBlue'
         data-aos='fade-up'
       >
         <Typewriter

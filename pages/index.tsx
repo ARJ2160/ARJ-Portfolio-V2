@@ -50,7 +50,7 @@ const Home: NextPage = () => {
           <Footer />
         </div>
         {colorTheme === 'light' ? (
-          <span className='fixed top-24 md:right-16 right-5 select-none'>
+          <span className='fixed top-24 md:right-[2.7rem] right-5 select-none'>
             <Image
               src={sunSvg}
               width={30}
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
             />
           </span>
         ) : (
-          <span className='fixed top-24 md:right-16 right-5 select-none'>
+          <span className='fixed top-24 md:right-[2.7rem] right-4 select-none'>
             <Image
               src={moonSvg}
               width={30}

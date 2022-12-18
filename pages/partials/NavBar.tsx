@@ -12,7 +12,7 @@ const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
         <div>
           <Link href='/'>
             <span className='pl-8 dark:text-darkOpal text-black cursor-pointer'>
-              ARJs Portfolio
+              ARJs Portfolio V2
             </span>
           </Link>
         </div>
@@ -31,20 +31,22 @@ const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
           ></div>
         </div>
         <div className='pr-8 md:block hidden'>
-          <Link href='#About'>
+          <a href='/#About'>
             <span className='nav-link'>About Me</span>
-          </Link>
-          <Link href='#Skills'>
+          </a>
+          <a href='/#Skills'>
             <span className='nav-link'>Skills</span>
-          </Link>
-          <Link href='#Projects'>
+          </a>
+          <a href='/#Projects'>
             <span className='nav-link'>Projects</span>
-          </Link>
-          <Link href='https://drive.google.com/file/d/19vd_SZhMVQW1FP6Bvz9hfZrI-u8XNPRK/view?usp=sharing'>
-            <a target='_blank'>
-              <button className='pdf'>Resume</button>
-            </a>
-          </Link>
+          </a>
+          <a
+            target='_blank'
+            href='https://drive.google.com/file/d/1_PG6zmra19CzWvHK-FRnsnBP6vbdWCU_/view?usp=share_link'
+            rel='noopener noreferrer'
+          >
+            <button className='pdf'>Resume</button>
+          </a>
         </div>
       </nav>
       <DropDown isOpen={isOpen} toggle={toggle} />
