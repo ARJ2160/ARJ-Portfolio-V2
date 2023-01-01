@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { data } from '../../assets/data';
 import DropDown from './DropDown';
 
 const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
@@ -42,7 +43,7 @@ const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
           </a>
           <a
             target='_blank'
-            href='https://drive.google.com/file/d/1_PG6zmra19CzWvHK-FRnsnBP6vbdWCU_/view?usp=share_link'
+            href={data.social.Resume}
             rel='noopener noreferrer'
           >
             <button className='pdf'>Resume</button>

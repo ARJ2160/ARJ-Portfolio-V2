@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { data } from '../../assets/data';
 
 const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
   return (
@@ -24,11 +25,7 @@ const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
         <Link href='#Projects'>Projects</Link>
       </div>
       <div className='p-4'>
-        <a
-          target='_blank'
-          href='https://drive.google.com/file/d/1MDLieHDNX-hLm_OkkrfCTHLy_KbVUyc7/view?usp=share_link'
-          rel='noopener noreferrer'
-        >
+        <a target='_blank' href={data.social.Resume} rel='noopener noreferrer'>
           <button className='pdf'>Resume</button>
         </a>
       </div>
