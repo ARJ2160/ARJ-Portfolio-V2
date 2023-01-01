@@ -18,7 +18,7 @@ import Samtej from '../images/Project Images/SamTej.webp';
 import Spotify from '../images/Project Images/Spotify_Clone.webp';
 import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
-import Purescript from '../images/Skill SVGs/purescript.svg';
+// import Purescript from '../images/Skill SVGs/purescript.svg';
 import Storybook from '../images/Skill SVGs/storybook.svg';
 import Flask from '../images/Skill SVGs/flask.svg';
 import Python from '../images/Skill SVGs/python.svg';
@@ -51,11 +51,11 @@ export const data = {
       skillName: 'Typescript',
       skillIcon: Typescript
     },
-    {
-      id: uuidv4(),
-      skillName: 'Purescript',
-      skillIcon: Purescript
-    },
+    // {
+    //   id: uuidv4(),
+    //   skillName: 'Purescript',
+    //   skillIcon: Purescript
+    // },
     {
       id: uuidv4(),
       skillName: 'JavaScript',
