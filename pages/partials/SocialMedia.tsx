@@ -82,7 +82,7 @@ const SocialMedia = (): JSX.Element => {
           <li>
             <a
               href={social?.Resume}
-              className='social-media text-teal-500 hover:bg-black '
+              className='social-media text-teal-500 hover:bg-black group'
               download='Professional Resume - Atharva Joshi.pdf'
               target='_blank'
               rel='noopener noreferrer'
