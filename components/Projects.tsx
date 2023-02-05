@@ -1,9 +1,9 @@
-import ProjectCard from './ProjectCard';
+import { ProjectCard } from './index';
 import React from 'react';
-import { data } from '../../assets/data';
-import { ProjectProps } from '../../types/types';
+import { data } from '../assets/data';
+import { ProjectProps } from '../types/types';
 
-const Projects = (): JSX.Element => {
+export const Projects = (): JSX.Element => {
   const projects: ProjectProps[] = data.projects;
   return (
     <div
@@ -31,5 +31,3 @@ const Projects = (): JSX.Element => {
     </div>
   );
 };
-
-export default Projects;

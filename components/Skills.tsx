@@ -1,9 +1,9 @@
 import React from 'react';
-import SkillCard from './SkillCard';
-import { data } from '../../assets/data';
-import { SkillProps } from '../../types/types';
+import { SkillCard } from './index';
+import { data } from '../assets/data';
+import { SkillProps } from '../types/types';
 
-const Skills = (): JSX.Element => {
+export const Skills = (): JSX.Element => {
   const skills: SkillProps[] = data.skills;
   return (
     <div
@@ -30,5 +30,3 @@ const Skills = (): JSX.Element => {
     </div>
   );
 };
-
-export default Skills;

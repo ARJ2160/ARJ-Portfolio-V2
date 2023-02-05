@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import { ProjectCardProps } from '../../types/types';
+import { ProjectCardProps } from '../types/types';
 
-const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
+export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
   return (
     <div
       key={project?.id}
@@ -38,5 +38,3 @@ const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
     </div>
   );
 };
-
-export default ProjectCard;

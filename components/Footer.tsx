@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = (): JSX.Element => {
+export const Footer = (): JSX.Element => {
   return (
     <div className='flex justify-center items-center text-center w-full text-2xl my-20'>
       <p className='dark:text-darkOpal text-black'>
@@ -15,5 +15,3 @@ const Footer = (): JSX.Element => {
     </div>
   );
 };
-
-export default Footer;

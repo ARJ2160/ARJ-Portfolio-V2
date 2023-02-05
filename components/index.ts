@@ -1,0 +1,10 @@
+export { Hero } from './Hero';
+export { About } from './About';
+export { DropDown } from './DropDown';
+export { Footer } from './Footer';
+export { Projects } from './Projects';
+export { ProjectCard } from './ProjectCard';
+export { Skills } from './Skills';
+export { SkillCard } from './SkillCard';
+export { SocialMedia } from './SocialMedia';
+export { Navbar } from './NavBar';

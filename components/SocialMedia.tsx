@@ -1,5 +1,5 @@
 import React from 'react';
-import { data } from '../../assets/data';
+import { data } from '../assets/data';
 import {
   FaFolder,
   FaGithub,
@@ -8,9 +8,9 @@ import {
   FaTwitter
 } from 'react-icons/fa';
 import { SiLinkedin } from 'react-icons/si';
-import { SocialMediaProps } from '../../types/types';
+import { SocialMediaProps } from '../types/types';
 
-const SocialMedia = (): JSX.Element => {
+export const SocialMedia = (): JSX.Element => {
   const social: SocialMediaProps = data.social;
 
   return (
@@ -104,12 +104,10 @@ const SocialMedia = (): JSX.Element => {
             className='email-link mr-10 hover:dark:text-white duration-300 dark:text-opal text-black'
             rel='noopener noreferrer'
           >
-            atharvaj2160@gmail.com
+            {data.social.Email}
           </a>
         </div>
       </div>
     </>
   );
 };
-
-export default SocialMedia;

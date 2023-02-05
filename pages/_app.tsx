@@ -4,7 +4,7 @@ import Aos from 'aos';
 import type { AppProps } from 'next/app';
 import React, { useEffect } from 'react';
 import Head from 'next/head';
-import Layout from './partials/Layout';
+import Layout from '../components/Layout';
 
 /**
  * This is the Home Page

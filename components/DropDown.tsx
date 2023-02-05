@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-import { data } from '../../assets/data';
+import { data } from '../assets/data';
 
-const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
+export const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
   return (
     <div
       className={
@@ -32,5 +32,3 @@ const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
     </div>
   );
 };
-
-export default DropDown;

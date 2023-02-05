@@ -1,10 +1,10 @@
 import React from 'react';
-import pic from '../../images/Atharva_Joshi.webp';
+import pic from '../images/Atharva_Joshi.webp';
 import Typewriter from 'typewriter-effect';
-import { data } from '../../assets/data';
+import { data } from '../assets/data';
 import Image from 'next/image';
 
-const Card = (): JSX.Element => {
+export const Hero = (): JSX.Element => {
   return (
     <div
       className='w-full min-h-fit dark:text-black h-full flex justify-center flex-col items-center text-center md:px-20 py-40'
@@ -53,5 +53,3 @@ const Card = (): JSX.Element => {
     </div>
   );
 };
-
-export default Card;

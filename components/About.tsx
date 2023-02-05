@@ -1,7 +1,7 @@
-import { data } from '../../assets/data';
+import { data } from '../assets/data';
 import React from 'react';
 
-const About = (): JSX.Element => {
+export const About = (): JSX.Element => {
   return (
     <div className='background w-3/4 mx-auto min-h-max pt-20' id='About'>
       <div className='text-5xl pb-5 md:text-8xl text-center my-10'>
@@ -24,5 +24,3 @@ const About = (): JSX.Element => {
     </div>
   );
 };
-
-export default About;

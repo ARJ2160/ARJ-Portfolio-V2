@@ -25,6 +25,14 @@ import Python from '../images/Skill SVGs/python.svg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
+  navbar: {
+    website_name: "ARJ's Portfolio V2",
+    about: 'About Me',
+    skills: 'Skills',
+    projects: 'Projects',
+    contact: 'Contact',
+    resume: 'Resume'
+  },
   social: {
     GitHub: 'https://github.com/ARJ2160',
     LinkedIn: 'https://www.linkedin.com/in/arj2160/',

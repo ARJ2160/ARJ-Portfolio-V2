@@ -1,21 +1,22 @@
 import type { NextPage } from 'next';
 import React, { useEffect, useState } from 'react';
-import About from './partials/About';
-import Hero from './partials/Hero';
-import Footer from './partials/Footer';
-import Projects from './partials/Projects';
-import Skills from './partials/Skills';
+import {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Projects,
+  Footer,
+  SocialMedia
+} from '../components/index';
 import sunSvg from '../images/lightMode.svg';
 import moonSvg from '../images/darkMode.svg';
 import useDarkMode from '../hooks/useDarkMode';
 import Image from 'next/image';
 
-import Navbar from './partials/NavBar';
-import SocialMedia from './partials/SocialMedia';
-
 const Home: NextPage = () => {
-  const [mounted, setMounted] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [mounted, setMounted] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const [colorTheme, setTheme]: any = useDarkMode();
   const toggle = () => {
     setIsOpen(!isOpen);
