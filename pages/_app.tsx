@@ -30,6 +30,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         <meta name='author' content='Atharva Joshi' />
         <meta name='language' content='en-us' />
         <meta name='description' content='ARJs Portfolio Website Version 2' />
+        <meta name="theme-color" content="#3399FF"/>
         <meta charSet='utf-8' />
         <meta
           itemProp='image'
