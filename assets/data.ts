@@ -39,7 +39,7 @@ export const data = {
     Twitter: 'https://twitter.com/Atharvaj2160',
     Email: 'atharvaj2160@gmail.com',
     Resume:
-      'https://drive.google.com/file/d/1_PG6zmra19CzWvHK-FRnsnBP6vbdWCU_/view?usp=share_link',
+      'https://drive.google.com/file/d/1fk15mW7GFgFoZoTOsq3L4BXW6eY2FJ2m/view?usp=share_link',
     Spotify:
       'https://open.spotify.com/playlist/52gtDapY50kKkLEnnnvYgz?si=89f44d4ce2944b91'
   },
