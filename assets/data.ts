@@ -59,11 +59,6 @@ export const data = {
       skillName: 'Typescript',
       skillIcon: Typescript
     },
-    // {
-    //   id: uuidv4(),
-    //   skillName: 'Purescript',
-    //   skillIcon: Purescript
-    // },
     {
       id: uuidv4(),
       skillName: 'JavaScript',
@@ -138,6 +133,24 @@ export const data = {
   projects: [
     {
       id: uuidv4(),
+      title: 'Next JS Blog V2',
+      image: BlogWebsite,
+      description:
+        'Built a blog website using React and Tailwind CSS, allowing users to view blogs written by the users with admin access.',
+      tags: [
+        'Next JS',
+        'Redux',
+        'Redux Toolkit',
+        'MD5',
+        'Express JS',
+        'MongoDB',
+        'Mongoose'
+      ],
+      projectLink: 'https://blog-v2-olive.vercel.app/',
+      link: 'https://github.com/ARJ2160/React-Blog'
+    },
+    {
+      id: uuidv4(),
       title: 'Lusion React + Tailwind Clone',
       image: Lusion,
       description: `Developed an emulation of the "Lusion" website using React and Tailwind.`,
@@ -189,24 +202,6 @@ export const data = {
       tags: ['React JS', 'Bootstrap 5'],
       projectLink: 'https://samtejllp.com/',
       link: 'https://github.com/ARJ2160/Samtej-React'
-    },
-    {
-      id: uuidv4(),
-      title: 'React Blog',
-      image: BlogWebsite,
-      description:
-        'Built a blog website using React and Tailwind CSS, allowing users to view blogs written by the users with admin access.',
-      tags: [
-        'React JS',
-        'Redux',
-        'Redux Toolkit',
-        'MD5 Hashing',
-        'Express JS',
-        'MongoDB',
-        'Mongoose'
-      ],
-      projectLink: 'https://github.com/ARJ2160/React-Blog',
-      link: 'https://github.com/ARJ2160/React-Blog'
     }
   ],
   hero: {
