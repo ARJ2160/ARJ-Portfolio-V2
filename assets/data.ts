@@ -136,9 +136,11 @@ export const data = {
       title: 'Next JS Blog V2',
       image: BlogWebsite,
       description:
-        'Built a blog website using React and Tailwind CSS, allowing users to view blogs written by the users with admin access.',
+        'Built a blog website using NEXT JS and Tailwind CSS for the Frontend. Developed a RESTful Express Backend which connects to a MongoDB database and logins the users allowing them to post blogs. Implemented OAuth for GitHub and Google',
       tags: [
         'Next JS',
+        'Typescript',
+        'NextAuth',
         'Redux',
         'Redux Toolkit',
         'MD5',
@@ -147,13 +149,15 @@ export const data = {
         'Mongoose'
       ],
       projectLink: 'https://blog-v2-olive.vercel.app/',
-      link: 'https://github.com/ARJ2160/React-Blog'
+      link: 'https://github.com/ARJ2160/Blog-V2',
+      backendLink: 'https://github.com/ARJ2160/React-Blog-Backend',
+      underDevelopment: true
     },
     {
       id: uuidv4(),
       title: 'Lusion React + Tailwind Clone',
       image: Lusion,
-      description: `Developed an emulation of the "Lusion" website using React and Tailwind.`,
+      description: `Developed an emulation of the "Lusion" website using React and Tailwind. Integrated a cart functionality with Stripe API for payments`,
       tags: ['React JS', 'Tailwind CSS', 'Stripe API'],
       projectLink: 'https://tailwind-lusion.vercel.app/',
       link: 'https://github.com/ARJ2160/Tailwind-Lusion'
@@ -163,7 +167,7 @@ export const data = {
       title: 'NEXT JS Spotify Clone',
       image: Spotify,
       description:
-        'Created a clone of the Spotify website with NEXT JS, Tailwind CSS, NEXT Auth, and Spotify API.',
+        'Created a clone of the Spotify website with NEXT JS, Tailwind CSS, NEXT Auth, and Spotify API. Users can sign in using OAuth and control their own spotify player with the web app.',
       tags: ['NEXT JS', 'Tailwind CSS', 'Spotify API', 'NEXT Auth'],
       projectLink: 'https://next-spotify-clone-xi.vercel.app/',
       link: 'https://github.com/ARJ2160/Next-Spotify-Clone'
@@ -196,7 +200,7 @@ export const data = {
     },
     {
       id: uuidv4(),
-      title: 'Samtej Industries LLP',
+      title: 'Samtej Industries LLP (Freelance Project)',
       image: Samtej,
       description: `Converted low fidelity designs to front-ends. Developed a static React JS website that helped bring the business online so users could browse through the company's various products.`,
       tags: ['React JS', 'Bootstrap 5'],
