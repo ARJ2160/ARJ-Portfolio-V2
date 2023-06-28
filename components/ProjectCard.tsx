@@ -24,7 +24,7 @@ export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
       <div className='py-4 px-4'>
         <h1 className='text-2xl py-2'>{project?.title}</h1>
         {project?.underDevelopment && (
-          <p className='flex items-center'>
+          <div className='flex items-center'>
             <div className='warning-icon mr-2'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -42,7 +42,7 @@ export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
               </svg>
             </div>
             Under Development
-          </p>
+          </div>
         )}
         <a href={project?.link} target='_blank' rel='noopener noreferrer'>
           <p className='text-blue-600 my-2'>View Code</p>

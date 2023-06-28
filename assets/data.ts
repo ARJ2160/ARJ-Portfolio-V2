@@ -18,7 +18,7 @@ import Samtej from '../images/Project Images/SamTej.webp';
 import Spotify from '../images/Project Images/Spotify_Clone.webp';
 import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
-// import Purescript from '../images/Skill SVGs/purescript.svg';
+import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
 import Storybook from '../images/Skill SVGs/storybook.svg';
 import Flask from '../images/Skill SVGs/flask.svg';
 import Python from '../images/Skill SVGs/python.svg';
@@ -39,7 +39,7 @@ export const data = {
     Twitter: 'https://twitter.com/Atharvaj2160',
     Email: 'atharvaj2160@gmail.com',
     Resume:
-      'https://drive.google.com/file/d/1bgX0XFuVMW2-hoqDORwmypORbiqUnN-h/view?usp=sharing',
+      'https://drive.google.com/file/d/1nwmvAOTyQLx-nEXVFO5ygT0u3nXBFxQT/view?usp=sharing',
     Spotify:
       'https://open.spotify.com/playlist/52gtDapY50kKkLEnnnvYgz?si=89f44d4ce2944b91'
   },
@@ -151,6 +151,22 @@ export const data = {
       projectLink: 'https://blog-v2-olive.vercel.app/',
       link: 'https://github.com/ARJ2160/Blog-V2',
       backendLink: 'https://github.com/ARJ2160/React-Blog-Backend',
+      underDevelopment: true
+    },
+    {
+      id: uuidv4(),
+      title: 'MIT Scratch Clone',
+      image: MITScratchClone,
+      description: `Developed a clone of the MIT Scratch website with React flow nodes in place of blocks. Used Custom events to control execution of connected blocks using custom events.`,
+      tags: [
+        'Vite',
+        'React JS',
+        'React Flow',
+        'Tailwind CSS',
+        'React Custom Events'
+      ],
+      projectLink: 'https://cool-twilight-ce65a1.netlify.app/',
+      link: 'https://github.com/ARJ2160/MIT-Scratch-Clone',
       underDevelopment: true
     },
     {
