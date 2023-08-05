@@ -167,7 +167,7 @@ export const data = {
       ],
       projectLink: 'https://cool-twilight-ce65a1.netlify.app/',
       link: 'https://github.com/ARJ2160/MIT-Scratch-Clone',
-      underDevelopment: true
+      underDevelopment: false
     },
     {
       id: uuidv4(),
