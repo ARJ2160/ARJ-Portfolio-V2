@@ -166,8 +166,7 @@ export const data = {
         'React Custom Events'
       ],
       projectLink: 'https://cool-twilight-ce65a1.netlify.app/',
-      link: 'https://github.com/ARJ2160/MIT-Scratch-Clone',
-      underDevelopment: false
+      link: 'https://github.com/ARJ2160/MIT-Scratch-Clone'
     },
     {
       id: uuidv4(),
@@ -193,10 +192,18 @@ export const data = {
       title: 'IMDb Clone',
       image: Movies,
       description:
-        'Built an IMDb website clone using the IMDb API with React JS for the front-end, Redux Toolkit for managing state, and Redux Thunk as middleware for the API calls',
-      tags: ['React JS', 'Redux Toolkit', 'Redux Thunk', 'Sass'],
+        'Built an IMDb website clone using the TMDb API with React JS and NEXT UI for the front-end, Redux Toolkit for managing state, and Redux Thunk as middleware for the API calls',
+      tags: [
+        'Vite JS',
+        'Typescript',
+        'Tailwind CSS',
+        'Next UI',
+        'Redux Toolkit',
+        'Redux Thunk'
+      ],
       projectLink: 'https://redux-movies-lemon.vercel.app/',
-      link: 'https://github.com/ARJ2160/Redux-Movies'
+      link: 'https://github.com/ARJ2160/Redux-Movies',
+      underDevelopment: true
     },
     {
       id: uuidv4(),
