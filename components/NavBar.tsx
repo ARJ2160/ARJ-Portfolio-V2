@@ -49,7 +49,7 @@ export const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
           </a>
         </div>
       </nav>
-      <DropDown isOpen={isOpen} toggle={toggle} />
+      <DropDown isOpen={isOpen} />
     </React.Fragment>
   );
 };

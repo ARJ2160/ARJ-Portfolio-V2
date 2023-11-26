@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { data } from '../assets/data';
 
-export const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
+export const DropDown = ({ isOpen }: any): JSX.Element => {
   return (
     <div
       className={
@@ -10,7 +10,6 @@ export const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
           ? 'grid grid-rows-4 text-center w-full mt-20 p-5 items-center fixed z-10 dark:bg-white dark:text-black bg-darkOpal origin-top transition-all'
           : 'hidden'
       }
-      onClick={toggle}
     >
       <div className='px-4'>
         <Link href='/'>Home</Link>
