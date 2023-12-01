@@ -20,8 +20,10 @@ import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
 import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
 import Storybook from '../images/Skill SVGs/storybook.svg';
-import Flask from '../images/Skill SVGs/flask.svg';
-import Python from '../images/Skill SVGs/python.svg';
+// import Flask from '../images/Skill SVGs/flask.svg';
+// import Python from '../images/Skill SVGs/python.svg';
+import Docker from '../images/Skill SVGs/docker.svg';
+import Jenkins from '../images/Skill SVGs/jenkins.svg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
@@ -76,14 +78,24 @@ export const data = {
     },
     {
       id: uuidv4(),
-      skillName: 'Flask',
-      skillIcon: Flask
+      skillName: 'Docker',
+      skillIcon: Docker
     },
     {
       id: uuidv4(),
-      skillName: 'Python',
-      skillIcon: Python
+      skillName: 'Jenkins',
+      skillIcon: Jenkins
     },
+    // {
+    //   id: uuidv4(),
+    //   skillName: 'Flask',
+    //   skillIcon: Flask
+    // },
+    // {
+    //   id: uuidv4(),
+    //   skillName: 'Python',
+    //   skillIcon: Python
+    // },
     {
       id: uuidv4(),
       skillName: 'Tailwind CSS',
@@ -136,7 +148,7 @@ export const data = {
       title: 'Next JS Blog V2',
       image: BlogWebsite,
       description:
-        'Built a blog website using NEXT JS and Tailwind CSS for the Frontend. Developed a RESTful Express Backend which connects to a MongoDB database and logins the users allowing them to post blogs. Implemented OAuth for GitHub and Google',
+        'Built a blog website using NEXT JS and Tailwind CSS for the Frontend. Developed a RESTful Express Backend which connects to a MongoDB database and logins the users allowing them to post blogs. Implemented OAuth for GitHub and Google. Built a Jenkins pipeline to build and push a new build with every commit',
       tags: [
         'Next JS',
         'Typescript',
@@ -146,7 +158,9 @@ export const data = {
         'MD5',
         'Express JS',
         'MongoDB',
-        'Mongoose'
+        'Mongoose',
+        'Jenkins',
+        'Docker'
       ],
       projectLink: 'https://blog-v2-olive.vercel.app/',
       link: 'https://github.com/ARJ2160/Blog-V2',

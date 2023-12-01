@@ -16,12 +16,11 @@ export const SkillCard = ({
         <Image
           width={skillIcon?.width}
           height={skillIcon?.height}
-          className='inline-block'
           src={skillIcon}
           alt=''
         />
       </span>
-      <p className='text-xl mt-5'>{skillName}</p>
+      <p className='text-xl mt-7'>{skillName}</p>
     </div>
   );
 };
