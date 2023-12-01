@@ -1,6 +1,7 @@
 import React from 'react';
 import { data } from '../assets/data';
 import { DropDown } from './DropDown';
+import { ARJLogo } from './ARJLogo';
 
 export const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
   return (
@@ -9,11 +10,9 @@ export const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
         className='navbar glass flex justify-between w-full h-10 py-10 items-center fixed z-10'
         role='navigation'
       >
-        <div>
+        <div className='ml-10'>
           <a href='/#Hero'>
-            <span className='pl-8 dark:text-darkOpal text-black cursor-pointer'>
-              {data.navbar.website_name}
-            </span>
+            <ARJLogo classNames={'w-28 h-28'} />
           </a>
         </div>
         <div
@@ -49,7 +48,7 @@ export const Navbar = ({ toggle, isOpen }: any): JSX.Element => {
           </a>
         </div>
       </nav>
-      <DropDown isOpen={isOpen} />
+      <DropDown isOpen={isOpen} toggle={toggle} />
     </React.Fragment>
   );
 };

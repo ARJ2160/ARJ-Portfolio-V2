@@ -22,7 +22,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
-        <meta property='og:url' content='https://www.atharvaj.tech' />
+        <meta property='og:url' content='https://www.atharvaj.online' />
         <meta property='og:type' content='website' />;
         <meta property='og:site_name' content='ARJs Portfolio V2' />
         <meta property='og:title' content='ARJs Portfolio V2' />

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { data } from '../assets/data';
 
-export const DropDown = ({ isOpen }: any): JSX.Element => {
+export const DropDown = ({ isOpen, toggle }: any): JSX.Element => {
   return (
     <div
       className={
@@ -11,19 +11,19 @@ export const DropDown = ({ isOpen }: any): JSX.Element => {
           : 'hidden'
       }
     >
-      <div className='px-4'>
+      <div className='px-4' onClick={toggle}>
         <Link href='/'>Home</Link>
       </div>
-      <div className='p-4'>
+      <div className='p-4' onClick={toggle}>
         <Link href='#About'>About</Link>
       </div>
-      <div className='p-4'>
+      <div className='p-4' onClick={toggle}>
         <Link href='#Skills'>Skills</Link>
       </div>
-      <div className='p-4'>
+      <div className='p-4' onClick={toggle}>
         <Link href='#Projects'>Projects</Link>
       </div>
-      <div className='p-4'>
+      <div className='p-4' onClick={toggle}>
         <a target='_blank' href={data.social.Resume} rel='noopener noreferrer'>
           <button className='pdf'>Resume</button>
         </a>

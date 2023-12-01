@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="./public/vercel.svg" width="100" />
+  <img alt="Logo" src="./public/logo.svg" width="100" />
 </div>
 <h1 align="center">
   ARJ's Portfolio - V2
