@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="./public/logo.png" width="350" height="350" />
+  <img alt="Logo" src="./public/logo.png" width="200" height="200" />
 </div>
 <h1 align="center">
   ARJ's Portfolio - V2
