@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { ProjectCardProps } from '../types/types';
+import { Chips } from './index';
 
 export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
   return (
@@ -56,11 +57,20 @@ export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
             <p className='text-blue-600 my-2'>Backend Code</p>
           </a>
         )}
+        {project.originalWebsiteLink && (
+          <a
+            href={project?.originalWebsiteLink}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <p className='text-blue-600 my-2'>Original Website</p>
+          </a>
+        )}
         <p className='py-2 text-lg'>{project?.description}</p>
         <div className='mt-4 mb-8 flex flex-wrap justify-center items-center gap-2'>
           {project?.tags.map((tag: string, i: number) => (
-            <div key={i} className='px-4 py-1 border-2 rounded-full'>
-              {tag}
+            <div key={i}>
+              <Chips classNames='border-2 border-gray-300'>{tag}</Chips>
             </div>
           ))}
         </div>

@@ -16,6 +16,7 @@ export interface ProjectProps {
   title: string;
   backendLink?: string;
   underDevelopment?: boolean;
+  originalWebsiteLink?: string;
 }
 export interface SkillProps {
   id: string;

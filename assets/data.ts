@@ -14,14 +14,12 @@ import Movies from '../images/Project Images/Redux_Movies.webp';
 import NEXTJS from '../images/Skill SVGs/nextjs.svg';
 import ReactIcon from '../images/Skill SVGs/react.svg';
 import Redux from '../images/Skill SVGs/redux.svg';
-import Samtej from '../images/Project Images/SamTej.webp';
+import MiltonFramer from '../images/Project Images/Milton_Framer_Project.webp';
 import Spotify from '../images/Project Images/Spotify_Clone.webp';
 import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
 import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
 import Storybook from '../images/Skill SVGs/storybook.svg';
-// import Flask from '../images/Skill SVGs/flask.svg';
-// import Python from '../images/Skill SVGs/python.svg';
 import Docker from '../images/Skill SVGs/docker.svg';
 import Jenkins from '../images/Skill SVGs/jenkins.svg';
 import { v4 as uuidv4 } from 'uuid';
@@ -180,7 +178,18 @@ export const data = {
         'React Custom Events'
       ],
       projectLink: 'https://cool-twilight-ce65a1.netlify.app/',
-      link: 'https://github.com/ARJ2160/MIT-Scratch-Clone'
+      link: 'https://github.com/ARJ2160/MIT-Scratch-Clone',
+      originalWebsiteLink: 'https://scratch.mit.edu/projects/editor/'
+    },
+    {
+      id: uuidv4(),
+      title: 'Framer Milton Clone',
+      image: MiltonFramer,
+      description: `Developed a clone of Milton Framer website using Vite and Tailwind CSS. Used Framer motion to add animation effects.`,
+      tags: ['Vite', 'React JS', 'Framer Motion', 'Tailwind CSS'],
+      projectLink: 'https://milton-framer-template.vercel.app/',
+      link: 'https://github.com/ARJ2160/Milton-Framer-Template',
+      originalWebsiteLink: 'https://culture-breathe-337021.framer.app/'
     },
     {
       id: uuidv4(),
@@ -189,7 +198,8 @@ export const data = {
       description: `Developed an emulation of the "Lusion" website using React and Tailwind. Integrated a cart functionality with Stripe API for payments`,
       tags: ['React JS', 'Tailwind CSS', 'Stripe API'],
       projectLink: 'https://tailwind-lusion.vercel.app/',
-      link: 'https://github.com/ARJ2160/Tailwind-Lusion'
+      link: 'https://github.com/ARJ2160/Tailwind-Lusion',
+      originalWebsiteLink: 'https://aht-lusion.myshopify.com/'
     },
     {
       id: uuidv4(),
@@ -234,15 +244,6 @@ export const data = {
       ],
       projectLink: 'https://redux-form-one.vercel.app/',
       link: 'https://github.com/ARJ2160/Redux-Authentication'
-    },
-    {
-      id: uuidv4(),
-      title: 'Samtej Industries LLP (Freelance Project)',
-      image: Samtej,
-      description: `Converted low fidelity designs to front-ends. Developed a static React JS website that helped bring the business online so users could browse through the company's various products.`,
-      tags: ['React JS', 'Bootstrap 5'],
-      projectLink: 'https://samtejllp.com/',
-      link: 'https://github.com/ARJ2160/Samtej-React'
     }
   ],
   hero: {

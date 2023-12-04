@@ -9,3 +9,4 @@ export { SkillCard } from './SkillCard';
 export { SocialMedia } from './SocialMedia';
 export { Navbar } from './NavBar';
 export { ARJLogo } from './ARJLogo';
+export { Chips } from './Chips';
