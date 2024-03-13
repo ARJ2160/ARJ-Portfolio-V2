@@ -10,7 +10,7 @@
 </div>
 <p align="center">
   <a href="https://atharvaj.online" target="_blank">
-    <img src="[https://ik.imagekit.io/36athv2v82c8/Screenshot%202023-12-01%20085223_ey0UtqZ3M.png?updatedAt=1701400994262](https://ik.imagekit.io/36athv2v82c8/Screenshot%202023-12-01%20121203_IF5M0eX-SJ.png?updatedAt=1701412990327)" alt="Portfolio Website Screenshot" />
+    <img src="https://ik.imagekit.io/36athv2v82c8/Screenshot%202023-12-01%20121203_IF5M0eX-SJ.png?updatedAt=1701412990327" alt="Portfolio Website Screenshot" />
   </a>
 </p>
 <p align="center">
