@@ -5,6 +5,7 @@ import type { AppProps } from 'next/app';
 import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
+import { Analytics } from '@vercel/analytics/react';
 
 /**
  * This is the Home Page
@@ -61,6 +62,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         <title>ARJs Portfolio V2</title>
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 };
