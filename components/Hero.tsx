@@ -37,7 +37,7 @@ export const Hero = (): JSX.Element => {
               .start();
           }}
         />
-        <span className='ml-2'>{data.hero.my_name_is}</span>
+        <span className='ml-2'>my name is</span>
       </div>
       <span className='md:text-7xl text-5xl dark:text-opal text-black'>
         {data.hero.name}
