@@ -136,14 +136,12 @@ export const data = {
       title: 'Next JS Blog V2',
       image: BlogWebsite,
       description:
-        'Built a blog website using NEXT JS and Tailwind CSS for the Frontend. Developed a RESTful Express Backend which connects to a MongoDB database and logins the users allowing them to post blogs. Implemented OAuth for GitHub and Google. Built a Jenkins pipeline to build and push a new build with every commit',
+        'Built a blog website using NEXT JS and Tailwind CSS for the Frontend. Developed a RESTful Express Backend along with a MongoDB database. Implemented OAuth for GitHub and Google. Built a Jenkins pipeline to build and push a new build with every commit',
       tags: [
         'Next JS',
         'Typescript',
         'NextAuth',
-        'Redux',
-        'Redux Toolkit',
-        'MD5',
+        'Zustand',
         'Express JS',
         'MongoDB',
         'Mongoose',
