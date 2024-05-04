@@ -22,6 +22,7 @@ import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
 import Storybook from '../images/Skill SVGs/storybook.svg';
 import Docker from '../images/Skill SVGs/docker.svg';
 import Jenkins from '../images/Skill SVGs/jenkins.svg';
+import MaterialUI from '../images/Skill SVGs/materialui.svg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
@@ -63,6 +64,11 @@ export const data = {
       id: uuidv4(),
       skillName: 'JavaScript',
       skillIcon: Javascript
+    },
+    {
+      id: uuidv4(),
+      skillName: 'Material UI',
+      skillIcon: MaterialUI
     },
     {
       id: uuidv4(),
