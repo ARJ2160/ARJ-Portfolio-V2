@@ -18,10 +18,9 @@ export const Skills = (): JSX.Element => {
         <span className='text-skyBlue'>Trade</span>
       </div>
       <div className='grid md:grid-cols-4 sm:grid-cols-2 w-fit gap-7 mx-auto mt-8'>
-        {skills.map((skill: SkillProps) => (
+        {skills.map((skill: SkillProps, index: number) => (
           <SkillCard
-            key={skill.id}
-            id={skill.id}
+            key={index}
             skillName={skill.skillName}
             skillIcon={skill.skillIcon}
           />

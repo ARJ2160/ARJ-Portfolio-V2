@@ -6,7 +6,6 @@ import { Chips } from './index';
 export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
   return (
     <div
-      key={project?.id}
       className='max-w-md min-h-full bg-white text-black shadow-lg rounded-lg overflow-hidden my-4'
       data-aos='fade-up'
     >

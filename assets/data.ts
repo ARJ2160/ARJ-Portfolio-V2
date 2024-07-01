@@ -20,10 +20,9 @@ import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
 import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
 import Storybook from '../images/Skill SVGs/storybook.svg';
-import Docker from '../images/Skill SVGs/docker.svg';
-import Jenkins from '../images/Skill SVGs/jenkins.svg';
+// import Docker from '../images/Skill SVGs/docker.svg';
+// import Jenkins from '../images/Skill SVGs/jenkins.svg';
 import MaterialUI from '../images/Skill SVGs/materialui.svg';
-import { v4 as uuidv4 } from 'uuid';
 
 export const data = {
   navbar: {
@@ -46,99 +45,80 @@ export const data = {
   },
   skills: [
     {
-      id: uuidv4(),
       skillName: 'NEXT JS',
       skillIcon: NEXTJS
     },
     {
-      id: uuidv4(),
       skillName: 'React JS',
       skillIcon: ReactIcon
     },
     {
-      id: uuidv4(),
       skillName: 'Typescript',
       skillIcon: Typescript
     },
     {
-      id: uuidv4(),
       skillName: 'JavaScript',
       skillIcon: Javascript
     },
     {
-      id: uuidv4(),
       skillName: 'Material UI',
       skillIcon: MaterialUI
     },
     {
-      id: uuidv4(),
       skillName: 'Storybook',
       skillIcon: Storybook
     },
     {
-      id: uuidv4(),
       skillName: 'Redux',
       skillIcon: Redux
     },
+    // {
+    //   skillName: 'Docker',
+    //   skillIcon: Docker
+    // },
+    // {
+    //   skillName: 'Jenkins',
+    //   skillIcon: Jenkins
+    // },
     {
-      id: uuidv4(),
-      skillName: 'Docker',
-      skillIcon: Docker
-    },
-    {
-      id: uuidv4(),
-      skillName: 'Jenkins',
-      skillIcon: Jenkins
-    },
-    {
-      id: uuidv4(),
       skillName: 'Tailwind CSS',
       skillIcon: Tailwind
     },
     {
-      id: uuidv4(),
       skillName: 'GraphQL',
       skillIcon: GraphQL
     },
     {
-      id: uuidv4(),
       skillName: 'Apollo GraphQL',
       skillIcon: Apollo
     },
     {
-      id: uuidv4(),
       skillName: 'MongoDB',
       skillIcon: MongoDB
     },
     {
-      id: uuidv4(),
       skillName: 'Express',
       skillIcon: Express
     },
     {
-      id: uuidv4(),
       skillName: 'HTML 5',
       skillIcon: HTML5
     },
     {
-      id: uuidv4(),
       skillName: 'Bootstrap',
       skillIcon: Bootstrap
     },
     {
-      id: uuidv4(),
       skillName: 'CSS 3',
       skillIcon: CSS3
     },
     {
-      id: uuidv4(),
       skillName: 'GitHub',
       skillIcon: GitHub
     }
   ],
   projects: [
     {
-      id: uuidv4(),
       title: 'Next JS Blog V2',
       image: BlogWebsite,
       description:
@@ -160,7 +140,6 @@ export const data = {
       underDevelopment: true
     },
     {
-      id: uuidv4(),
       title: 'MIT Scratch Clone',
       image: MITScratchClone,
       description: `Developed a clone of the MIT Scratch website with React flow nodes in place of blocks. Used Custom events to control execution of connected blocks using custom events.`,
@@ -176,7 +155,6 @@ export const data = {
       originalWebsiteLink: 'https://scratch.mit.edu/projects/editor/'
     },
     {
-      id: uuidv4(),
       title: 'Framer Milton Clone',
       image: MiltonFramer,
       description: `Developed a clone of Milton Framer website using Vite and Tailwind CSS. Used Framer motion to add animation effects.`,
@@ -186,7 +164,6 @@ export const data = {
       originalWebsiteLink: 'https://culture-breathe-337021.framer.app/'
     },
     {
-      id: uuidv4(),
       title: 'Lusion React + Tailwind Clone',
       image: Lusion,
       description: `Developed an emulation of the "Lusion" website using React and Tailwind. Integrated a cart functionality with Stripe API for payments`,
@@ -196,7 +173,6 @@ export const data = {
       originalWebsiteLink: 'https://aht-lusion.myshopify.com/'
     },
     {
-      id: uuidv4(),
       title: 'NEXT JS Spotify Clone',
       image: Spotify,
       description:
@@ -206,7 +182,6 @@ export const data = {
       link: 'https://github.com/ARJ2160/Next-Spotify-Clone'
     },
     {
-      id: uuidv4(),
       title: 'IMDb Clone',
       image: Movies,
       description:
@@ -224,7 +199,6 @@ export const data = {
       underDevelopment: true
     },
     {
-      id: uuidv4(),
       title: 'Redux Authentication System',
       image: Form,
       description:

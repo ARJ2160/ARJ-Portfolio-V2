@@ -3,14 +3,14 @@ import React from 'react';
 import { SkillProps } from '../types/types';
 
 export const SkillCard = ({
-  id,
+  key,
   skillName,
   skillIcon
 }: SkillProps): JSX.Element => {
   return (
     <div
       className='w-40 flex justify-center items-center flex-col mx-auto text-center p-4 rounded-xl border-2 bg-[#CCD6F6] text-black border-gray-300'
-      key={id}
+      key={key}
     >
       <Image
         width={skillIcon?.width}

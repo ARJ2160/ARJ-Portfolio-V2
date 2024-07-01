@@ -2,7 +2,6 @@ export interface ProjectCardProps {
   project: ProjectProps;
 }
 export interface ProjectProps {
-  id: string;
   description: string;
   image: {
     src: string;
@@ -19,7 +18,7 @@ export interface ProjectProps {
   originalWebsiteLink?: string;
 }
 export interface SkillProps {
-  id: string;
+  key?: number;
   skillName: string;
   skillIcon: {
     height: number;
