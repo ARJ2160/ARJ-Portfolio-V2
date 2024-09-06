@@ -31,6 +31,19 @@ export const SocialMedia = (): JSX.Element => {
           </li>
           <li>
             <a
+              href={social?.Resume}
+              className='social-media text-teal-500 hover:bg-black group'
+              download='Professional Resume - Atharva Joshi.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaFolder />
+              <span className='tooltip group-hover:scale-100'>Resume</span>
+              <span className='sr-only'>Resume</span>
+            </a>
+          </li>
+          <li>
+            <a
               href={social?.LinkedIn}
               className='social-media text-blue-700 hover:bg-black group'
               target='_blank'
@@ -39,18 +52,6 @@ export const SocialMedia = (): JSX.Element => {
               <SiLinkedin />
               <span className='tooltip group-hover:scale-100'>LinkedIn</span>
               <span className='sr-only'>LinkedIn</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href={social?.Spotify}
-              className='social-media text-teal-500 hover:bg-black group'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <FaSpotify />
-              <span className='tooltip group-hover:scale-100'>Spotify</span>
-              <span className='sr-only'>Spotify</span>
             </a>
           </li>
           <li>
@@ -79,17 +80,17 @@ export const SocialMedia = (): JSX.Element => {
               <span className='sr-only'>Email</span>
             </a>
           </li>
+
           <li>
             <a
-              href={social?.Resume}
+              href={social?.Spotify}
               className='social-media text-teal-500 hover:bg-black group'
-              download='Professional Resume - Atharva Joshi.pdf'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <FaFolder />
-              <span className='tooltip group-hover:scale-100'>Resume</span>
-              <span className='sr-only'>Resume</span>
+              <FaSpotify />
+              <span className='tooltip group-hover:scale-100'>Spotify</span>
+              <span className='sr-only'>Spotify</span>
             </a>
           </li>
         </ul>
