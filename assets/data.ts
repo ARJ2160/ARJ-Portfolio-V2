@@ -20,9 +20,10 @@ import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
 import Typescript from '../images/Skill SVGs/typescript.svg';
 import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
 import Storybook from '../images/Skill SVGs/storybook.svg';
-// import Docker from '../images/Skill SVGs/docker.svg';
+import Docker from '../images/Skill SVGs/docker.svg';
 // import Jenkins from '../images/Skill SVGs/jenkins.svg';
 import MaterialUI from '../images/Skill SVGs/materialui.svg';
+import Node from '../images/Skill SVGs/node.svg';
 
 export const data = {
   navbar: {
@@ -39,7 +40,7 @@ export const data = {
     Twitter: 'https://twitter.com/Atharvaj2160',
     Email: 'atharvaj2160@gmail.com',
     Resume:
-      'https://drive.google.com/file/d/1XkURD6n94oaV-PI2hKPNULHtFiwIyxW_/view?usp=sharing',
+      'https://drive.google.com/file/d/1UHdH9ePNuutEvVT5Df--B3T_wFJE6C65/view?usp=sharing',
     Spotify:
       'https://open.spotify.com/playlist/52gtDapY50kKkLEnnnvYgz?si=89f44d4ce2944b91'
   },
@@ -57,6 +58,10 @@ export const data = {
       skillIcon: Typescript
     },
     {
+      skillName: 'Node JS',
+      skillIcon: Node
+    },
+    {
       skillName: 'JavaScript',
       skillIcon: Javascript
     },
@@ -72,10 +77,10 @@ export const data = {
       skillName: 'Redux',
       skillIcon: Redux
     },
-    // {
-    //   skillName: 'Docker',
-    //   skillIcon: Docker
-    // },
+    {
+      skillName: 'Docker',
+      skillIcon: Docker
+    },
     // {
     //   skillName: 'Jenkins',
     //   skillIcon: Jenkins
@@ -136,8 +141,7 @@ export const data = {
       ],
       projectLink: 'https://blog-v2-olive.vercel.app/',
       link: 'https://github.com/ARJ2160/Blog-V2',
-      backendLink: 'https://github.com/ARJ2160/React-Blog-Backend',
-      underDevelopment: true
+      backendLink: 'https://github.com/ARJ2160/React-Blog-Backend'
     },
     {
       title: 'MIT Scratch Clone',
@@ -195,8 +199,7 @@ export const data = {
         'Redux Thunk'
       ],
       projectLink: 'https://redux-movies-lemon.vercel.app/',
-      link: 'https://github.com/ARJ2160/Redux-Movies',
-      underDevelopment: true
+      link: 'https://github.com/ARJ2160/Redux-Movies'
     },
     {
       title: 'Redux Authentication System',
@@ -219,8 +222,15 @@ export const data = {
     about_me: `I'm a React Developer who loves creating aesthetically pleasing front-ends. Currently, I'm focused on building my logic to the next level in basic Javascript. When I'm not coding, I'm probably listening to some hip-hop ;)`
   },
   about: {
-    about_me: `Hey there! My name is Atharva, and I love creating sleek front-ends and high-performant back-ends for the web. I first started playing around with HTML and CSS in 2021, trying to recreate mockups from Tumblr, and since then, I have been making websites with React and MERN Stack. Nowadays, I'm trying to learn Node JS, so I can be a Full-Stack developer. I work at an IT firm called Apptware, where I work on web-apps and E-commerce websites used by local businesses.`,
+    about_me: `Hey there! My name is Atharva, and I love creating sleek front-ends and high-performant back-ends for the web. I first started playing around with HTML and CSS in 2021, trying to recreate mockups from Tumblr, and since then, I have been making websites with React and MERN Stack. Nowadays, I'm trying to learn System Design, so I can be a Full-Stack developer.`,
     tech: `Here are some of the technologies I get to work with :`,
-    tech_list: ['React Typescript', 'Storybook', 'Cypress', 'JavaScript ES6']
+    tech_list: [
+      'React Typescript',
+      'Storybook',
+      'Cypress',
+      'JavaScript',
+      'Node JS',
+      'MongoDB'
+    ]
   }
 };

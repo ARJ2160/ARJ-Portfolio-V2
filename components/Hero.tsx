@@ -10,16 +10,15 @@ export const Hero = (): JSX.Element => {
       className='w-full min-h-fit dark:text-black h-full flex justify-center flex-col items-center text-center md:px-20 py-40'
       id='Hero'
     >
-      <div className='w-28 h-28' data-aos='fade-up'>
-        <Image
-          width={pic.width}
-          height={pic.height}
-          src={pic}
-          className='my-4 rounded-full'
-          alt='ARJ Image'
-          priority
-        />
-      </div>
+      <Image
+        width={pic.width}
+        height={pic.height}
+        src={pic}
+        className='my-4 rounded-full max-w-32 max-h-32'
+        alt='ARJ Image'
+        priority
+        data-aos='fade-up'
+      />
       <div
         className='text-2xl mt-5 md:text-xl font-mono flex items-center justify-between text-center text-skyBlue'
         data-aos='fade-up'

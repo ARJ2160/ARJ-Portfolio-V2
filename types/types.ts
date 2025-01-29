@@ -18,7 +18,6 @@ export interface ProjectProps {
   originalWebsiteLink?: string;
 }
 export interface SkillProps {
-  key?: number;
   skillName: string;
   skillIcon: {
     height: number;
