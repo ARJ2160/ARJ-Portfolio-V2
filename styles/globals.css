@@ -5,7 +5,9 @@
 @font-face {
   font-family: 'Apercu Pro';
   src: url('fonts/ApercuPro-Medium.eot');
-  src: local('Apercu Pro Medium'), local('ApercuPro-Medium'),
+  src:
+    local('Apercu Pro Medium'),
+    local('ApercuPro-Medium'),
     url('fonts/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
     url('fonts/ApercuPro-Medium.woff2') format('woff2'),
     url('fonts/ApercuPro-Medium.woff') format('woff'),
@@ -18,7 +20,9 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: Apercu Pro, sans-serif;
+  font-family:
+    Apercu Pro,
+    sans-serif;
   font-weight: 500;
   scroll-behavior: smooth;
   @apply transition-all duration-300 ease-in;

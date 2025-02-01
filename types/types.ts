@@ -11,7 +11,7 @@ export interface ProjectProps {
   };
   link: string;
   projectLink: string;
-  tags: string[];
+  tags: ({ name: string; icon?: any } | undefined)[];
   title: string;
   backendLink?: string;
   underDevelopment?: boolean;

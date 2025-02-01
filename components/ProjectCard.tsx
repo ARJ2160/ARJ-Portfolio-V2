@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { JSX } from 'react';
 import { ProjectCardProps } from '../types/types';
 import { Chips } from './index';
 
@@ -67,11 +67,27 @@ export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
         )}
         <p className='py-2 text-lg'>{project?.description}</p>
         <div className='mt-4 mb-8 flex flex-wrap justify-center items-center gap-2'>
-          {project?.tags.map((tag: string, i: number) => (
-            <div key={i}>
-              <Chips classNames='border-2 border-gray-300'>{tag}</Chips>
-            </div>
-          ))}
+          {project?.tags.map(
+            (tag: { name: string; icon?: any } | undefined, i: number) =>
+              tag && (
+                <div key={`${tag.name}-${i}`}>
+                  <Chips classNames='border-2 border-gray-300'>
+                    <div className='flex items-center'>
+                      {tag.icon && (
+                        <Image
+                          src={tag.icon?.src}
+                          width={18}
+                          height={18}
+                          alt={tag.name}
+                          className='mr-2 w-5 h-5'
+                        />
+                      )}
+                      <div>{tag.name}</div>
+                    </div>
+                  </Chips>
+                </div>
+              )
+          )}
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { data } from '../assets/data';
-import React from 'react';
+import React, { JSX } from 'react';
 
 export const About = (): JSX.Element => {
   return (

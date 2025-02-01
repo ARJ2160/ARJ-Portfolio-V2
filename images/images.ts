@@ -1,25 +1,68 @@
-// export const Apollo = require('./Skill SVGs/apollo.svg').default;
-// export const BlogWebsite = require('/Blog_Website.webp').default;
-// export const Bootstrap = require('./Skill SVGs/bootstrap.svg').default;
-// export const CSS3 = require('./Skill SVGs/css.svg').default;
-// export const Express = require('./Skill SVGs/express.svg').default;
-// export const Form = require('./Project Images/Redux_Form.webp').default;
-// export const GitHub = require('./Skill SVGs/github.svg').default;
-// export const GraphQL = require('./Skill SVGs/graphql.svg').default;
-// export const HTML5 = require('./Skill SVGs/html.svg').default;
-// export const Javascript = require('./Skill SVGs/javascript.svg').default;
-// export const Lusion = require('./Project Images/Lusion_React.webp').default;
-// export const MongoDB = require('./Skill SVGs/mongodb.svg').default;
-// export const Movies = require('./Project Images/Redux_Movies.webp').default;
-// export const NEXTJS = require('./Skill SVGs/nextjs.svg').default;
-// export const ReactIcon = require('./Skill SVGs/react.svg').default;
-// export const Redux = require('./Skill SVGs/redux.svg').default;
-// export const Samtej = require('./Project Images/SamTej.webp').default;
-// export const Spotify = require('./Project Images/Spotify_Clone.webp').default;
-// export const Tailwind = require('./Skill SVGs/tailwind-css.svg').default;
-// export const Typescript = require('./Skill SVGs/typescript.svg').default;
-// export const Purescript = require('./Skill SVGs/purescript.svg').default;
-// export const Storybook = require('./Skill SVGs/storybook.svg').default;
-// export const Flask = require('./Skill SVGs/flask.svg').default;
-// export const Python = require('./Skill SVGs/python.svg').default;
-export const images = () => {};
+import BlogWebsite from './Project Images/Blog_Website.webp';
+import Form from './Project Images/Redux_Form.webp';
+import MITScratchClone from './Project Images/MITScratchClone.webp';
+import MiltonFramer from '../images/Project Images/Milton_Framer_Project.webp';
+import Movies from './Project Images/Redux_Movies.webp';
+import Spotify from './Project Images/Spotify_Clone.webp';
+
+import Apollo from './Skill SVGs/apollo-graphql.svg';
+import Express from './Skill SVGs/express.svg';
+import Bootstrap from './Skill SVGs/bootstrap.svg';
+import CSS3 from './Skill SVGs/css.svg';
+import GitHub from './Skill SVGs/github.svg';
+import GraphQL from './Skill SVGs/graphql.svg';
+import HTML5 from './Skill SVGs/html.svg';
+import Javascript from './Skill SVGs/javascript.svg';
+import Lusion from './Project Images/Lusion_React.webp';
+import MongoDB from './Skill SVGs/mongodb.svg';
+import NEXTJS from './Skill SVGs/nextjs.svg';
+import ReactIcon from './Skill SVGs/react.svg';
+import Redux from './Skill SVGs/redux.svg';
+import Tailwind from './Skill SVGs/tailwind-css.svg';
+import Typescript from './Skill SVGs/typescript.svg';
+import Storybook from './Skill SVGs/storybook.svg';
+import MaterialUI from './Skill SVGs/materialui.svg';
+import Docker from './Skill SVGs/docker.svg';
+import Gitlab from './Skill SVGs/gitlab.svg';
+import Zustand from './Skill SVGs/zustand.svg';
+import Jenkins from './Skill SVGs/jenkins.svg';
+import Vite from './Skill SVGs/vite.svg';
+import Framer from './Skill SVGs/framer.svg';
+import Stripe from './Skill SVGs/stripe.svg';
+import SpotifyLogo from './Skill SVGs/spotify.svg';
+import Node from './Skill SVGs/node.svg';
+
+export {
+  BlogWebsite,
+  Form,
+  MITScratchClone,
+  MiltonFramer,
+  Movies,
+  Spotify,
+  Apollo,
+  Express,
+  Bootstrap,
+  CSS3,
+  GitHub,
+  GraphQL,
+  HTML5,
+  Javascript,
+  Lusion,
+  MongoDB,
+  NEXTJS,
+  ReactIcon,
+  Redux,
+  Tailwind,
+  Typescript,
+  Storybook,
+  MaterialUI,
+  Docker,
+  Gitlab,
+  Zustand,
+  Jenkins,
+  Vite,
+  Framer,
+  Stripe,
+  SpotifyLogo,
+  Node
+};

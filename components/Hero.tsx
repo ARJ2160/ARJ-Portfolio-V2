@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import pic from '../images/Atharva_Joshi.webp';
 import Typewriter from 'typewriter-effect';
 import { data } from '../assets/data';
@@ -14,7 +14,7 @@ export const Hero = (): JSX.Element => {
         width={pic.width}
         height={pic.height}
         src={pic}
-        className='my-4 rounded-full max-w-32 max-h-32'
+        className='my-4 rounded-full max-w-36 max-h-36'
         alt='ARJ Image'
         priority
         data-aos='fade-up'

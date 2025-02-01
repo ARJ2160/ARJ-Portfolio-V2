@@ -3,7 +3,12 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['plugin:react/recommended', 'google', 'prettier'],
+  extends: [
+    'plugin:react/recommended',
+    'google',
+    'prettier',
+    'plugin:@next/next/recommended'
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -15,7 +20,9 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'require-jsdoc': 'off',
-    'react/no-unknown-property': 'off'
+    'react/no-unknown-property': 'off',
+    'require-jsdoc': 0,
+    'valid-jsdoc': 0
   },
   settings: {
     react: {

@@ -17,6 +17,7 @@
   The Design is partially inspired by <a href="https://brittanychiang.com/" target="_blank">britannychiang.com</a>
 </p>
 
+<p>Icons from <a href="https://svgl.app/">https://svgl.app/</a></p>
 ## Initial Setup done with -
 
 ```sh

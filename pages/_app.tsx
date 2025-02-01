@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import type { AppProps } from 'next/app';
-import React, { useEffect } from 'react';
+import React, { JSX, useEffect } from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import { Analytics } from '@vercel/analytics/react';

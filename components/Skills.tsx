@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, JSX } from 'react';
 import { SkillCard } from './index';
 import { data } from '../assets/data';
 import { SkillProps } from '../types/types';

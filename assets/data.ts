@@ -1,29 +1,37 @@
-import Apollo from '../images/Skill SVGs/apollo-graphql.svg';
-import BlogWebsite from '../images/Project Images/Blog_Website.webp';
-import Bootstrap from '../images/Skill SVGs/bootstrap.svg';
-import CSS3 from '../images/Skill SVGs/css.svg';
-import Express from '../images/Skill SVGs/express.svg';
-import Form from '../images/Project Images/Redux_Form.webp';
-import GitHub from '../images/Skill SVGs/github.svg';
-import GraphQL from '../images/Skill SVGs/graphql.svg';
-import HTML5 from '../images/Skill SVGs/html.svg';
-import Javascript from '../images/Skill SVGs/javascript.svg';
-import Lusion from '../images/Project Images/Lusion_React.webp';
-import MongoDB from '../images/Skill SVGs/mongodb.svg';
-import Movies from '../images/Project Images/Redux_Movies.webp';
-import NEXTJS from '../images/Skill SVGs/nextjs.svg';
-import ReactIcon from '../images/Skill SVGs/react.svg';
-import Redux from '../images/Skill SVGs/redux.svg';
-import MiltonFramer from '../images/Project Images/Milton_Framer_Project.webp';
-import Spotify from '../images/Project Images/Spotify_Clone.webp';
-import Tailwind from '../images/Skill SVGs/tailwind-css.svg';
-import Typescript from '../images/Skill SVGs/typescript.svg';
-import MITScratchClone from '../images/Project Images/MITScratchClone.webp';
-import Storybook from '../images/Skill SVGs/storybook.svg';
-import Docker from '../images/Skill SVGs/docker.svg';
-// import Jenkins from '../images/Skill SVGs/jenkins.svg';
-import MaterialUI from '../images/Skill SVGs/materialui.svg';
-import Node from '../images/Skill SVGs/node.svg';
+import {
+  Apollo,
+  CSS3,
+  Bootstrap,
+  ReactIcon,
+  NEXTJS,
+  Typescript,
+  Javascript,
+  MaterialUI,
+  Storybook,
+  Redux,
+  Tailwind,
+  GraphQL,
+  MongoDB,
+  Express,
+  HTML5,
+  BlogWebsite,
+  Form,
+  GitHub,
+  Lusion,
+  Movies,
+  Spotify,
+  Docker,
+  Gitlab,
+  Zustand,
+  Jenkins,
+  Vite,
+  MITScratchClone,
+  MiltonFramer,
+  Framer,
+  Stripe,
+  SpotifyLogo,
+  Node
+} from '../images/images';
 
 export const data = {
   navbar: {
@@ -66,14 +74,6 @@ export const data = {
       skillIcon: Javascript
     },
     {
-      skillName: 'Material UI',
-      skillIcon: MaterialUI
-    },
-    {
-      skillName: 'Storybook',
-      skillIcon: Storybook
-    },
-    {
       skillName: 'Redux',
       skillIcon: Redux
     },
@@ -81,13 +81,21 @@ export const data = {
       skillName: 'Docker',
       skillIcon: Docker
     },
-    // {
-    //   skillName: 'Jenkins',
-    //   skillIcon: Jenkins
-    // },
     {
-      skillName: 'Tailwind CSS',
-      skillIcon: Tailwind
+      skillName: 'MongoDB',
+      skillIcon: MongoDB
+    },
+    {
+      skillName: 'Express',
+      skillIcon: Express
+    },
+    {
+      skillName: 'Material UI',
+      skillIcon: MaterialUI
+    },
+    {
+      skillName: 'Storybook',
+      skillIcon: Storybook
     },
     {
       skillName: 'GraphQL',
@@ -97,13 +105,13 @@ export const data = {
       skillName: 'Apollo GraphQL',
       skillIcon: Apollo
     },
+    // {
+    //   skillName: 'Jenkins',
+    //   skillIcon: Jenkins
+    // },
     {
-      skillName: 'MongoDB',
-      skillIcon: MongoDB
-    },
-    {
-      skillName: 'Express',
-      skillIcon: Express
+      skillName: 'Tailwind CSS',
+      skillIcon: Tailwind
     },
     {
       skillName: 'HTML 5',
@@ -120,6 +128,10 @@ export const data = {
     {
       skillName: 'GitHub',
       skillIcon: GitHub
+    },
+    {
+      skillName: 'GitLab',
+      skillIcon: Gitlab
     }
   ],
   projects: [
@@ -129,15 +141,40 @@ export const data = {
       description:
         'Built a blog website using NEXT JS and Tailwind CSS for the Frontend. Developed a RESTful Express Backend along with a MongoDB database. Implemented OAuth for GitHub and Google. Built a Jenkins pipeline to build and push a new build with every commit',
       tags: [
-        'Next JS',
-        'Typescript',
-        'NextAuth',
-        'Zustand',
-        'Express JS',
-        'MongoDB',
-        'Mongoose',
-        'Jenkins',
-        'Docker'
+        {
+          name: 'Next JS',
+          icon: NEXTJS
+        },
+        {
+          name: 'Typescript',
+          icon: Typescript
+        },
+        {
+          name: 'NextAuth'
+        },
+        {
+          name: 'Zustand',
+          icon: Zustand
+        },
+        {
+          name: 'Express JS',
+          icon: Express
+        },
+        {
+          name: 'MongoDB',
+          icon: MongoDB
+        },
+        {
+          name: 'Mongoose'
+        },
+        {
+          name: 'Jenkins',
+          icon: Jenkins
+        },
+        {
+          name: 'Docker',
+          icon: Docker
+        }
       ],
       projectLink: 'https://blog-v2-olive.vercel.app/',
       link: 'https://github.com/ARJ2160/Blog-V2',
@@ -148,11 +185,24 @@ export const data = {
       image: MITScratchClone,
       description: `Developed a clone of the MIT Scratch website with React flow nodes in place of blocks. Used Custom events to control execution of connected blocks using custom events.`,
       tags: [
-        'Vite',
-        'React JS',
-        'React Flow',
-        'Tailwind CSS',
-        'React Custom Events'
+        {
+          name: 'Vite',
+          icon: Vite
+        },
+        {
+          name: 'React JS',
+          icon: ReactIcon
+        },
+        {
+          name: 'React Flow'
+        },
+        {
+          name: 'Tailwind CSS',
+          icon: Tailwind
+        },
+        {
+          name: 'React Custom Events'
+        }
       ],
       projectLink: 'https://cool-twilight-ce65a1.netlify.app/',
       link: 'https://github.com/ARJ2160/MIT-Scratch-Clone',
@@ -162,7 +212,24 @@ export const data = {
       title: 'Framer Milton Clone',
       image: MiltonFramer,
       description: `Developed a clone of Milton Framer website using Vite and Tailwind CSS. Used Framer motion to add animation effects.`,
-      tags: ['Vite', 'React JS', 'Framer Motion', 'Tailwind CSS'],
+      tags: [
+        {
+          name: 'Vite',
+          icon: Vite
+        },
+        {
+          name: 'React JS',
+          icon: ReactIcon
+        },
+        {
+          name: 'Framer Motion',
+          icon: Framer
+        },
+        {
+          name: 'Tailwind CSS',
+          icon: Tailwind
+        }
+      ],
       projectLink: 'https://milton-framer-template.vercel.app/',
       link: 'https://github.com/ARJ2160/Milton-Framer-Template',
       originalWebsiteLink: 'https://culture-breathe-337021.framer.app/'
@@ -171,7 +238,20 @@ export const data = {
       title: 'Lusion React + Tailwind Clone',
       image: Lusion,
       description: `Developed an emulation of the "Lusion" website using React and Tailwind. Integrated a cart functionality with Stripe API for payments`,
-      tags: ['React JS', 'Tailwind CSS', 'Stripe API'],
+      tags: [
+        {
+          name: 'React JS',
+          icon: ReactIcon
+        },
+        {
+          name: 'Tailwind CSS',
+          icon: Tailwind
+        },
+        {
+          name: 'Stripe API',
+          icon: Stripe
+        }
+      ],
       projectLink: 'https://tailwind-lusion.vercel.app/',
       link: 'https://github.com/ARJ2160/Tailwind-Lusion',
       originalWebsiteLink: 'https://aht-lusion.myshopify.com/'
@@ -181,7 +261,24 @@ export const data = {
       image: Spotify,
       description:
         'Created a clone of the Spotify website with NEXT JS, Tailwind CSS, NEXT Auth, and Spotify API. Users can sign in using OAuth and control their own spotify player with the web app.',
-      tags: ['NEXT JS', 'Tailwind CSS', 'Spotify API', 'NEXT Auth'],
+      tags: [
+        {
+          name: 'Next JS',
+          icon: NEXTJS
+        },
+        ,
+        {
+          name: 'Tailwind CSS',
+          icon: Tailwind
+        },
+        {
+          name: 'Spotify API',
+          icon: SpotifyLogo
+        },
+        {
+          name: 'NEXT Auth'
+        }
+      ],
       projectLink: 'https://next-spotify-clone-xi.vercel.app/',
       link: 'https://github.com/ARJ2160/Next-Spotify-Clone'
     },
@@ -191,13 +288,31 @@ export const data = {
       description:
         'Built an IMDb website clone using the TMDb API with React JS and NEXT UI for the front-end, Redux Toolkit for managing state, and Redux Thunk as middleware for the API calls',
       tags: [
-        'Vite JS',
-        'Typescript',
-        'Tailwind CSS',
-        'Next UI',
-        'Redux Toolkit',
-        'Redux Thunk'
+        {
+          name: 'Vite JS',
+          icon: Vite
+        },
+        {
+          name: 'Typescript',
+          icon: Typescript
+        },
+        {
+          name: 'Tailwind CSS',
+          icon: Tailwind
+        },
+        {
+          name: 'Next UI'
+        },
+        {
+          name: 'Redux Toolkit',
+          icon: Redux
+        },
+        {
+          name: 'Redux Thunk',
+          icon: Redux
+        }
       ],
+
       projectLink: 'https://redux-movies-lemon.vercel.app/',
       link: 'https://github.com/ARJ2160/Redux-Movies'
     },
@@ -207,11 +322,25 @@ export const data = {
       description:
         'Created an Authentication Flow System using React JS for the front-end and Redux Toolkit to manage state.',
       tags: [
-        'React JS',
-        'Redux',
-        'Redux Toolkit',
-        'Redux Persist',
-        'MD5 Hashing'
+        {
+          name: 'React JS',
+          icon: ReactIcon
+        },
+        {
+          name: 'Redux',
+          icon: Redux
+        },
+        {
+          name: 'Redux Toolkit',
+          icon: Redux
+        },
+        {
+          name: 'Redux Persist',
+          icon: Redux
+        },
+        {
+          name: 'MD5 Hashing'
+        }
       ],
       projectLink: 'https://redux-form-one.vercel.app/',
       link: 'https://github.com/ARJ2160/Redux-Authentication'
